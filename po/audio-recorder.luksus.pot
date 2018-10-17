@@ -1,32 +1,31 @@
-# German translation for recorder
-# Copyright (c) 2016 Rosetta Contributors and Canonical Ltd 2016
-# This file is distributed under the same license as the recorder package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: recorder\n"
+"Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-17 22:57+0000\n"
-"PO-Revision-Date: 2017-01-17 11:58+0000\n"
-"Last-Translator: Ilonka <Unknown>\n"
-"Language-Team: German <de@li.org>\n"
-"Language: de\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2017-01-18 06:20+0000\n"
-"X-Generator: Launchpad (build 18302)\n"
 
 #. TRANSLATORS: This is a quality option in Record Quality.
 #: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/Main.qml:100
 msgid "Very Low Quality"
-msgstr "Sehr niedrige Qualität"
+msgstr ""
 
 #. TRANSLATORS: This is a quality option in Record Quality.
 #: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/Main.qml:102
 msgid "Low Quality"
-msgstr "Niedrige Qualität"
+msgstr ""
 
 #. TRANSLATORS: This is a quality option in Record Quality.
 #. TRANSLATORS: This is an option in Encoding Mode. It means set audio quality using defaults options.
@@ -37,35 +36,35 @@ msgstr "Niedrige Qualität"
 #: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/Main.qml:204
 #, qt-format
 msgid "%1 (default)"
-msgstr "%1 (Voreinstellung)"
+msgstr ""
 
 #: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/Main.qml:104
 msgid "Normal Quality"
-msgstr "Normale Qualität"
+msgstr ""
 
 #. TRANSLATORS: This is a quality option in Record Quality.
 #: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/Main.qml:106
 msgid "High Quality"
-msgstr "Hohe Qualität"
+msgstr ""
 
 #. TRANSLATORS: This is a quality option in Record Quality.
 #: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/Main.qml:108
 msgid "Very High Quality"
-msgstr "Sehr hohe Qualität"
+msgstr ""
 
 #: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/Main.qml:115
 msgid "Constant Quality"
-msgstr "Konstante Qualität"
+msgstr ""
 
 #. TRANSLATORS: This is an option in Encoding Mode. It means set audio quality using bitrate.
 #: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/Main.qml:117
 msgid "Constant Bitrate"
-msgstr "Konstante Bitrate"
+msgstr ""
 
 #. TRANSLATORS: This a reminder when some thing error.
 #: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/Main.qml:174
 msgid " (Reset your settings will fix this.)"
-msgstr " Zurücksetzten der Einstellungen wird das Problem beheben"
+msgstr ""
 
 #. TRANSLATORS: Title of About page.
 #. TRANSLATORS: A section name of top Sections.
@@ -73,30 +72,30 @@ msgstr " Zurücksetzten der Einstellungen wird das Problem beheben"
 #: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/ui/AboutPage.qml:51
 #: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/ui/HomePage.qml:60
 msgid "About"
-msgstr "Über"
+msgstr ""
 
 #. TRANSLATORS: A section name of top Sections.
 #: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/ui/AboutPage.qml:53
 msgid "Support"
-msgstr "Support"
+msgstr ""
 
 #. TRANSLATORS: Recorder is the name of this App.
 #: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/ui/AboutPage.qml:132
 #: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/ui/HomePage.qml:31
 #: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/build/Recorder/Recorder.desktop.h:1
 msgid "Recorder"
-msgstr "Rekorder"
+msgstr ""
 
 #. TRANSLATORS: Recorder version number e.g Version 1.0.0
 #: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/ui/AboutPage.qml:139
 #, qt-format
 msgid "Version %1"
-msgstr "Version %1"
+msgstr ""
 
 #. TRANSLATORS: The summary of this App.
 #: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/ui/AboutPage.qml:149
 msgid "Audio Recorder for Ubuntu."
-msgstr "Audio Rekorder für Ubuntu."
+msgstr ""
 
 #. TRANSLATORS: release license
 #: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/ui/AboutPage.qml:174
@@ -104,67 +103,65 @@ msgid ""
 "Released under the terms of the <a href=\"https://github.com/dawndiy/"
 "recorder/blob/master/LICENSE\">GNU GPL v3</a>"
 msgstr ""
-"Herausgegeben unter den Bedingungen <a href=\"https://github.com/dawndiy/"
-"recorder/blob/master/LICENSE\">GNU GPL v3</a>"
 
 #: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/ui/AboutPage.qml:184
 #: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/ui/DonatePage.qml:30
 msgid "Donate"
-msgstr "Spenden"
+msgstr ""
 
 #: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/ui/AboutPage.qml:215
 #: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/ui/AboutPage.qml:216
 #: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/ui/AboutPage.qml:217
 msgid "Resources"
-msgstr "Quellen"
+msgstr ""
 
 #: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/ui/AboutPage.qml:215
 msgid "Bugs"
-msgstr "Fehler"
+msgstr ""
 
 #: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/ui/AboutPage.qml:216
 msgid "Contact"
-msgstr "Kontakt"
+msgstr ""
 
 #: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/ui/AboutPage.qml:217
 msgid "Translations"
-msgstr "Übersetzungen"
+msgstr ""
 
 #: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/ui/AboutPage.qml:220
 msgid "Icon"
-msgstr "Symbol"
+msgstr ""
 
 #: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/ui/AboutPage.qml:223
 msgid "Developers"
-msgstr "Entwickler"
+msgstr ""
 
 #: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/ui/DonatePage.qml:173
 msgid "Please donate if you like this App. :)"
-msgstr "Bitte spenden sie, wenn sie die App mögen"
+msgstr ""
 
 #. TRANSLATORS: This is a tab action name. This action button will enter a page show recorded files.
 #. TRANSLATORS: Title of record list page
 #: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/ui/HomePage.qml:41
 #: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/ui/RecordsPage.qml:68
 msgid "Records"
-msgstr "Aufnahmen"
+msgstr ""
 
 #. TRANSLATORS: The title of settings page
 #: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/ui/HomePage.qml:49
 #: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/ui/SettingsPage.qml:53
 msgid "Settings"
-msgstr "Einstellungen"
+msgstr ""
 
 #: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/ui/HomePage.qml:329
 #: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/ui/HomePage.qml:384
 #, qt-format
 msgid "Record is saved in %1"
-msgstr "Aufnahme wurde in %1 gespeichert"
+msgstr ""
 
 #. TRANSLATORS: The text of the button to skip the introduction page.
 #: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/ui/IntroPage.qml:40
 msgid "Skip"
-msgstr "Überspringen"
+msgstr ""
 
 #. TRANSLATORS: The title of introduction page
 #: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/ui/IntroPage.qml:54
@@ -216,7 +213,7 @@ msgstr ""
 #: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/ui/RecordsPage.qml:81
 #: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/ui/RecordsPage.qml:148
 msgid "Back"
-msgstr "Zurück"
+msgstr ""
 
 #. TRANSLATORS: Close export file page
 #: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/ui/RecordsPage.qml:89
@@ -235,7 +232,7 @@ msgstr ""
 #. TRANSLATORS: OK to comfirm export files.
 #: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/ui/RecordsPage.qml:125
 msgid "OK"
-msgstr "OK"
+msgstr ""
 
 #: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/ui/RecordsPage.qml:159
 msgid "Search..."
@@ -250,7 +247,7 @@ msgstr ""
 #: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/ui/RecordsPage.qml:554
 #: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/ui/RecordsPage.qml:558
 msgid "Delete"
-msgstr "Löschen"
+msgstr ""
 
 #: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/ui/RecordsPage.qml:272
 #, qt-format
@@ -260,7 +257,7 @@ msgstr ""
 #. TRANSLATORS: An action name for rename the file name.
 #: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/ui/RecordsPage.qml:283
 msgid "Rename"
-msgstr "Umbenennen"
+msgstr ""
 
 #. TRANSLATORS: An action name for the record file info.
 #: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/ui/RecordsPage.qml:297
@@ -363,7 +360,7 @@ msgstr ""
 #: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/ui/SettingsPage.qml:68
 #: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/ui/SettingsPage.qml:100
 msgid "Advanced Settings"
-msgstr "Erweiterte Einstellungen"
+msgstr ""
 
 #: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/ui/SettingsPage.qml:75
 #: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/ui/SettingsPage.qml:121
@@ -379,7 +376,7 @@ msgstr ""
 
 #: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/ui/SettingsPage.qml:114
 msgid "General Settings"
-msgstr "Allgemeine Einstellungen"
+msgstr ""
 
 #: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/ui/SettingsPage.qml:157
 msgid "Keep screen on"
@@ -391,7 +388,7 @@ msgstr ""
 
 #: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/ui/SettingsPage.qml:191
 msgid "Microphone volume"
-msgstr "Mikrofon Lautstärke"
+msgstr ""
 
 #: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/ui/SettingsPage.qml:245
 #: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/ui/SettingsPage.qml:254
