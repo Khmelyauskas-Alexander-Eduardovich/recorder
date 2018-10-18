@@ -1,7 +1,9 @@
 # Recorder
+## forked and detached from https://github.com/dawndiy/recorder
 
-[![GitHub release](https://img.shields.io/github/release/dawndiy/recorder.svg?maxAge=2592000)](https://github.com/dawndiy/recorder/releases/latest)
-[![license](https://img.shields.io/github/license/dawndiy/recorder.svg)](https://github.com/dawndiy/recorder/blob/master/LICENSE)
+[![GitHub release](https://img.shields.io/github/release/luksus42/recorder.svg?maxAge=2592000)](https://github.com/luksus42/recorder/releases/latest)
+[![license](https://img.shields.io/github/release/luksus42/recorder.svg)](https://github.com/dawndiy/recorder/blob/master/LICENSE)
+
 [![Ubuntu Store](https://img.shields.io/badge/UbuntuStore-Recorder-E95420.svg)](https://uappexplorer.com/app/audio-recorder.ubuntu-dawndiy)
 
 <img src="Recorder/Recorder.png" width="150" />
@@ -26,7 +28,7 @@ A beautiful audio recorder for Ubuntu Touch.
 - Easy to play records in record list
 - Easy to export record to email, file explorer, etc.
 
-## License
+## License & Credits
 
 Copyright (C) 2016  [DawnDIY](http://dawndiy.com/)
 
