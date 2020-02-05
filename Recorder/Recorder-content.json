@@ -2,5 +2,9 @@
     "source": [
         "music",
         "videos"
+    ],
+    "share": [
+        "videos",
+        "music"
     ]
 }

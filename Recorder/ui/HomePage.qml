@@ -62,6 +62,20 @@ Page {
                     pageStack.addPageToNext(
                                 home, Qt.resolvedUrl("AboutPage.qml"))
                 }
+            },
+            Action {
+                iconName: "share"
+                text: i18n.tr("Share")
+                onTriggered: {
+                    if(player.source != "") {
+                      pageStack.addPageToNext(
+                                  home, Qt.resolvedUrl("SharePage.qml"),
+                                  {"url": player.source})
+                    } else {
+                      var message = i18n.tr("Please load or create a recording first.");
+                      notification(message, 5);
+                    }
+                }
             }
         ]
 

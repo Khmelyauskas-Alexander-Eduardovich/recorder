@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: recorder\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-10-17 22:57+0000\n"
+"POT-Creation-Date: 2020-02-05 21:49+0000\n"
 "PO-Revision-Date: 2017-01-10 09:50+0000\n"
 "Last-Translator: Jiri Grönroos <Unknown>\n"
 "Language-Team: Finnish <fi@li.org>\n"
@@ -19,87 +19,87 @@ msgstr ""
 "X-Generator: Launchpad (build 18302)\n"
 
 #. TRANSLATORS: This is a quality option in Record Quality.
-#: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/Main.qml:100
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/Main.qml:100
 msgid "Very Low Quality"
 msgstr "Erittäin matala laatu"
 
 #. TRANSLATORS: This is a quality option in Record Quality.
-#: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/Main.qml:102
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/Main.qml:102
 msgid "Low Quality"
 msgstr "Matala laatu"
 
 #. TRANSLATORS: This is a quality option in Record Quality.
 #. TRANSLATORS: This is an option in Encoding Mode. It means set audio quality using defaults options.
-#: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/Main.qml:104
-#: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/Main.qml:115
-#: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/Main.qml:123
-#: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/Main.qml:189
-#: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/Main.qml:204
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/Main.qml:104
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/Main.qml:115
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/Main.qml:123
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/Main.qml:189
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/Main.qml:204
 #, qt-format
 msgid "%1 (default)"
 msgstr "%1 (oletus)"
 
-#: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/Main.qml:104
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/Main.qml:104
 msgid "Normal Quality"
 msgstr "Normaali laatu"
 
 #. TRANSLATORS: This is a quality option in Record Quality.
-#: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/Main.qml:106
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/Main.qml:106
 msgid "High Quality"
 msgstr "Korkea laatu"
 
 #. TRANSLATORS: This is a quality option in Record Quality.
-#: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/Main.qml:108
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/Main.qml:108
 msgid "Very High Quality"
 msgstr "Erittäin korkea laatu"
 
-#: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/Main.qml:115
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/Main.qml:115
 msgid "Constant Quality"
 msgstr "Tasainen laatu"
 
 #. TRANSLATORS: This is an option in Encoding Mode. It means set audio quality using bitrate.
-#: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/Main.qml:117
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/Main.qml:117
 msgid "Constant Bitrate"
 msgstr "Tasainen bittinopeus"
 
 #. TRANSLATORS: This a reminder when some thing error.
-#: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/Main.qml:174
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/Main.qml:174
 msgid " (Reset your settings will fix this.)"
 msgstr " (Oletusasetusten palautus korjaa tämän.)"
 
 #. TRANSLATORS: Title of About page.
 #. TRANSLATORS: A section name of top Sections.
-#: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/ui/AboutPage.qml:30
-#: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/ui/AboutPage.qml:51
-#: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/ui/HomePage.qml:60
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/AboutPage.qml:30
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/AboutPage.qml:51
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/HomePage.qml:60
 msgid "About"
 msgstr "Tietoja"
 
 #. TRANSLATORS: A section name of top Sections.
-#: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/ui/AboutPage.qml:53
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/AboutPage.qml:53
 msgid "Support"
 msgstr "Tuki"
 
 #. TRANSLATORS: Recorder is the name of this App.
-#: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/ui/AboutPage.qml:132
-#: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/ui/HomePage.qml:31
-#: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/build/Recorder/Recorder.desktop.h:1
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/AboutPage.qml:132
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/HomePage.qml:31
+#: /home/luke/Code/UbuntuTouch/recorder/build/x86_64-linux-gnu/app/Recorder/Recorder.desktop.h:1
 msgid "Recorder"
 msgstr "Äänitin"
 
 #. TRANSLATORS: Recorder version number e.g Version 1.0.0
-#: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/ui/AboutPage.qml:139
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/AboutPage.qml:139
 #, qt-format
 msgid "Version %1"
 msgstr "Versio %1"
 
 #. TRANSLATORS: The summary of this App.
-#: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/ui/AboutPage.qml:149
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/AboutPage.qml:149
 msgid "Audio Recorder for Ubuntu."
 msgstr "Äänitallennin Ubuntulle"
 
 #. TRANSLATORS: release license
-#: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/ui/AboutPage.qml:174
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/AboutPage.qml:174
 msgid ""
 "Released under the terms of the <a href=\"https://github.com/dawndiy/"
 "recorder/blob/master/LICENSE\">GNU GPL v3</a>"
@@ -107,71 +107,79 @@ msgstr ""
 "Julkaistu <a href=\"https://github.com/dawndiy/recorder/blob/master/LICENSE"
 "\">GNU GPL v3</a> -lisenssin alaisena"
 
-#: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/ui/AboutPage.qml:184
-#: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/ui/DonatePage.qml:30
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/AboutPage.qml:184
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/DonatePage.qml:30
 msgid "Donate"
 msgstr "Lahjoita"
 
-#: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/ui/AboutPage.qml:215
-#: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/ui/AboutPage.qml:216
-#: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/ui/AboutPage.qml:217
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/AboutPage.qml:215
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/AboutPage.qml:216
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/AboutPage.qml:217
 msgid "Resources"
 msgstr "Resurssit"
 
-#: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/ui/AboutPage.qml:215
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/AboutPage.qml:215
 msgid "Bugs"
 msgstr "Ohjelmavirheet"
 
-#: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/ui/AboutPage.qml:216
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/AboutPage.qml:216
 msgid "Contact"
 msgstr "Ota yhteyttä"
 
-#: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/ui/AboutPage.qml:217
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/AboutPage.qml:217
 msgid "Translations"
 msgstr "Käännökset"
 
-#: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/ui/AboutPage.qml:220
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/AboutPage.qml:220
 msgid "Icon"
 msgstr "Kuvake"
 
-#: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/ui/AboutPage.qml:223
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/AboutPage.qml:223
 msgid "Developers"
 msgstr "Kehittäjät"
 
-#: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/ui/DonatePage.qml:173
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/DonatePage.qml:173
 msgid "Please donate if you like this App. :)"
 msgstr "Lahjoita jos pidät tästä sovelluksesta."
 
 #. TRANSLATORS: This is a tab action name. This action button will enter a page show recorded files.
 #. TRANSLATORS: Title of record list page
-#: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/ui/HomePage.qml:41
-#: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/ui/RecordsPage.qml:68
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/HomePage.qml:41
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:68
 msgid "Records"
 msgstr "Äänitteet"
 
 #. TRANSLATORS: The title of settings page
-#: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/ui/HomePage.qml:49
-#: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/ui/SettingsPage.qml:53
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/HomePage.qml:49
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:53
 msgid "Settings"
 msgstr "Asetukset"
 
-#: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/ui/HomePage.qml:329
-#: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/ui/HomePage.qml:384
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/HomePage.qml:68
+msgid "Share"
+msgstr ""
+
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/HomePage.qml:75
+msgid "Please load or create a recording first."
+msgstr ""
+
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/HomePage.qml:343
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/HomePage.qml:398
 #, qt-format
 msgid "Record is saved in %1"
 msgstr "Äänite on tallennettu sijaintiin %1"
 
 #. TRANSLATORS: The text of the button to skip the introduction page.
-#: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/ui/IntroPage.qml:40
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/IntroPage.qml:40
 msgid "Skip"
 msgstr "Ohita"
 
 #. TRANSLATORS: The title of introduction page
-#: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/ui/IntroPage.qml:54
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/IntroPage.qml:54
 msgid "Easy to recording"
 msgstr "Helppoa äänittämistä"
 
-#: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/ui/IntroPage.qml:55
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/IntroPage.qml:55
 msgid ""
 "1. Record button to start recording.\n"
 "2. Play button to play recording.\n"
@@ -182,11 +190,11 @@ msgstr ""
 "3. Pysäytyspainike pysäyttää äänityksen tai toiston."
 
 #. TRANSLATORS: The title of introduction page
-#: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/ui/IntroPage.qml:59
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/IntroPage.qml:59
 msgid "Rich set of options"
 msgstr "Runsaasti eri valintoja"
 
-#: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/ui/IntroPage.qml:60
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/IntroPage.qml:60
 msgid ""
 "1. Reset action to restore the default settings.\n"
 "2. Expand more advanced settings."
@@ -195,11 +203,11 @@ msgstr ""
 "2. Muita lisäasetuksia."
 
 #. TRANSLATORS: The title of introduction page
-#: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/ui/IntroPage.qml:64
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/IntroPage.qml:64
 msgid "Easy-to-use recorded file list"
 msgstr "Helppokäyttöinen äänitysluettelo"
 
-#: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/ui/IntroPage.qml:65
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/IntroPage.qml:65
 msgid ""
 "1. Rename recorded file.\n"
 "2. Check out recording informations.\n"
@@ -212,232 +220,236 @@ msgstr ""
 "4. Toista äänite napauttamalla sitä."
 
 #. TRANSLATORS: Start App
-#: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/ui/IntroPage.qml:139
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/IntroPage.qml:139
 msgid "Start"
 msgstr "Aloita"
 
 #. TRANSLATORS: Title of the export files page
-#: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/ui/RecordsPage.qml:70
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:70
 msgid "Export Records"
 msgstr "Vie äänitteet"
 
 #. TRANSLATORS: Go back previous page
-#: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/ui/RecordsPage.qml:81
-#: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/ui/RecordsPage.qml:148
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:81
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:148
 msgid "Back"
 msgstr "Takaisin"
 
 #. TRANSLATORS: Close export file page
-#: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/ui/RecordsPage.qml:89
-#: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/ui/RecordsPage.qml:463
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:89
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:463
 msgid "Close"
 msgstr "Sulje"
 
-#: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/ui/RecordsPage.qml:105
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:105
 msgid "Search"
 msgstr "Etsi"
 
-#: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/ui/RecordsPage.qml:110
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:110
 msgid "Sorting"
 msgstr "Lajittelu"
 
 #. TRANSLATORS: OK to comfirm export files.
-#: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/ui/RecordsPage.qml:125
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:125
 msgid "OK"
 msgstr "OK"
 
-#: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/ui/RecordsPage.qml:159
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:159
 msgid "Search..."
 msgstr "Etsi..."
 
-#: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/ui/RecordsPage.qml:238
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:238
 msgid "No records"
 msgstr "Ei äänitteitä"
 
 #. TRANSLATORS: An action name for delete a record file.
-#: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/ui/RecordsPage.qml:263
-#: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/ui/RecordsPage.qml:554
-#: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/ui/RecordsPage.qml:558
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:263
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:554
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:558
 msgid "Delete"
 msgstr "Poista"
 
-#: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/ui/RecordsPage.qml:272
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:272
 #, qt-format
 msgid "%1 has been deleted."
 msgstr "%1 on poistettu."
 
 #. TRANSLATORS: An action name for rename the file name.
-#: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/ui/RecordsPage.qml:283
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:283
 msgid "Rename"
 msgstr "Nimeä uudelleen"
 
 #. TRANSLATORS: An action name for the record file info.
-#: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/ui/RecordsPage.qml:297
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:297
 msgid "Info"
 msgstr "Tiedot"
 
-#: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/ui/RecordsPage.qml:429
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:429
 msgid "Record Information"
 msgstr "Äänitteen tiedot"
 
-#: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/ui/RecordsPage.qml:433
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:433
 #, qt-format
 msgid "<b>Name</b>: %1"
 msgstr "<b>Nimi</b>: %1"
 
-#: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/ui/RecordsPage.qml:437
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:437
 #, qt-format
 msgid "<b>Type</b>: %1"
 msgstr "<b>Tyyppi</b>: %1"
 
-#: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/ui/RecordsPage.qml:441
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:441
 #, qt-format
 msgid "<b>Size</b>: %1 (%2 B)"
 msgstr "<b>Koko</b>: %1 (%2 t)"
 
 #. TRANSLATORS: The location where the record file is stored.
-#: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/ui/RecordsPage.qml:447
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:447
 #, qt-format
 msgid "<b>Location</b>: %1"
 msgstr "<b>Sijainti</b>: %1"
 
 #. TRANSLATORS: The last accessed time.
-#: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/ui/RecordsPage.qml:453
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:453
 #, qt-format
 msgid "<b>Accessed</b>: %1"
 msgstr "<b>Käytetty</b>: %1"
 
 #. TRANSLATORS: The last modified time.
-#: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/ui/RecordsPage.qml:459
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:459
 #, qt-format
 msgid "<b>Modified</b>: %1"
 msgstr "<b>Muokattu</b>: %1"
 
-#: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/ui/RecordsPage.qml:486
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:486
 msgid "Rename Record File"
 msgstr "Nimeä uudelleen äänite"
 
-#: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/ui/RecordsPage.qml:487
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:487
 msgid "Please enter a new file name."
 msgstr "Anna uusi tiedostonimi."
 
-#: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/ui/RecordsPage.qml:495
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:495
 msgid "Save"
 msgstr "Tallenna"
 
-#: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/ui/RecordsPage.qml:506
-#: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/ui/RecordsPage.qml:564
-#: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/ui/SettingsPage.qml:499
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:506
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:564
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:499
 msgid "Cancel"
 msgstr "Peru"
 
-#: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/ui/RecordsPage.qml:516
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:516
 msgid "Sort by"
 msgstr "Järjestä"
 
-#: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/ui/RecordsPage.qml:526
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:526
 msgid "Unsorted (default)"
 msgstr "Järjestämätön (oletus)"
 
-#: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/ui/RecordsPage.qml:527
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:527
 msgid "File name (ascending)"
 msgstr "Tiedostonimi (nouseva)"
 
-#: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/ui/RecordsPage.qml:528
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:528
 msgid "File name (descending)"
 msgstr "Tiedostonimi (laskeva)"
 
-#: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/ui/RecordsPage.qml:529
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:529
 msgid "Time modified (newest first)"
 msgstr "Muokkausaika (uusin ensin)"
 
-#: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/ui/RecordsPage.qml:530
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:530
 msgid "Time modified (oldest first)"
 msgstr "Muokkausaika (vanhin ensin)"
 
-#: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/ui/RecordsPage.qml:531
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:531
 msgid "Size (ascending)"
 msgstr "Koko (nouseva)"
 
-#: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/ui/RecordsPage.qml:532
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:532
 msgid "Size (descending)"
 msgstr "Koko (laskeva)"
 
-#: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/ui/RecordsPage.qml:555
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:555
 #, qt-format
 msgid "Do you want delete %1 ?"
 msgstr "Haluatko poistaa äänitteen %1 ?"
 
 #. TRANSLATORS: The title of advanced settings page
-#: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/ui/SettingsPage.qml:68
-#: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/ui/SettingsPage.qml:100
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:68
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:100
 msgid "Advanced Settings"
 msgstr "Lisäasetukset"
 
-#: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/ui/SettingsPage.qml:75
-#: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/ui/SettingsPage.qml:121
-#: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/ui/SettingsPage.qml:488
-#: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/ui/SettingsPage.qml:493
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:75
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:121
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:488
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:493
 msgid "Reset"
 msgstr "Palauta oletukset"
 
-#: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/ui/SettingsPage.qml:81
-#: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/ui/SettingsPage.qml:127
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:81
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:127
 msgid "All settings have been reset."
 msgstr "Oletusasetukset on palautettu."
 
-#: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/ui/SettingsPage.qml:114
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:114
 msgid "General Settings"
 msgstr "Yleiset asetukset"
 
-#: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/ui/SettingsPage.qml:157
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:157
 msgid "Keep screen on"
 msgstr "Pidä näyttö päällä"
 
-#: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/ui/SettingsPage.qml:174
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:174
 msgid "Show sound wave"
 msgstr "Näytä ääniaalto"
 
-#: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/ui/SettingsPage.qml:191
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:191
 msgid "Microphone volume"
 msgstr "Mikrofonin äänenvoimakkuus"
 
-#: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/ui/SettingsPage.qml:245
-#: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/ui/SettingsPage.qml:254
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:245
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:254
 msgid "Record Quality"
 msgstr "Äänitteen laatu"
 
-#: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/ui/SettingsPage.qml:285
-#: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/ui/SettingsPage.qml:295
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:285
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:295
 msgid "Audio Codec"
 msgstr "Äänikoodekki"
 
-#: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/ui/SettingsPage.qml:321
-#: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/ui/SettingsPage.qml:331
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:321
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:331
 msgid "File Container"
 msgstr "Tiedostosäilö"
 
 #. TRANSLATORS: The count of sound channel
-#: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/ui/SettingsPage.qml:353
-#: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/ui/SettingsPage.qml:364
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:353
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:364
 msgid "Channels"
 msgstr "Kanavat"
 
-#: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/ui/SettingsPage.qml:388
-#: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/ui/SettingsPage.qml:398
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:388
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:398
 msgid "Encoding Mode"
 msgstr "Pakkaustila"
 
-#: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/ui/SettingsPage.qml:422
-#: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/ui/SettingsPage.qml:432
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:422
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:432
 msgid "Encoding Quality"
 msgstr "Pakkauslaatu"
 
-#: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/ui/SettingsPage.qml:456
-#: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/ui/SettingsPage.qml:466
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:456
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:466
 msgid "Bitrate"
 msgstr "Bittinopeus"
 
-#: /home/luke/Daten/EigeneDateien/Code/Ubuntu/recorder/Recorder/ui/SettingsPage.qml:489
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:489
 msgid "Do you want reset settings?"
 msgstr "Haluatko palauttaa oletusasetukset?"
+
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SharePage.qml:35
+msgid "Share with"
+msgstr ""

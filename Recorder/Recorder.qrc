@@ -6,6 +6,7 @@
         <file>ui/RecordsPage.qml</file>
         <file>ui/AboutPage.qml</file>
         <file>ui/SelectionPage.qml</file>
+        <file>ui/SharePage.qml</file>
         <file>component/ListItemHeader.qml</file>
         <file>ui/DonatePage.qml</file>
         <file>Recorder.png</file>

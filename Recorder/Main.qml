@@ -165,7 +165,7 @@ MainView {
         encodingQuality: settings.encodingQuality == -1 ?
                              Recorder.NormalQuality : settings.encodingQuality
         bitrate: settings.bitrate == -1 ?
-                     32000 : bitrateList[settings.bitrate]
+                     32000 : bitrateData.list[settings.bitrate]
         microphoneVolume: settings.microphoneVolume
 
         onError: {
