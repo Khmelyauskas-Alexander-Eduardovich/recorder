@@ -85,6 +85,8 @@ public:
 
     Q_INVOKABLE QStringList supportedAudioCodecs();
     Q_INVOKABLE QStringList supportedContainers();
+    Q_INVOKABLE QString audioCodecDescription(const QString& codec);
+    Q_INVOKABLE QString containerDescription(const QString& format) ;
 
 signals:
     void microphoneVolumeChanged(qreal volume);

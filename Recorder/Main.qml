@@ -157,7 +157,7 @@ MainView {
         }
 
         audioCodec: settings.audioCodec
-        fileContainer: settings.fileContainer
+        fileContainer: ""
         channels: settings.channels
         encodingMode: settings.encodingMode == -1 ?
                           Recorder.QualityMode : settings.encodingMode == 0 ?
@@ -184,28 +184,32 @@ MainView {
             }
             for (var i = 0; i < codec_list.length; i++) {
                 var codec = codec_list[i]
-                var codec_item = { name: codec, value: codec}
-                if (codec === "audio/x-vorbis") {
-                    codec_item.name = i18n.tr("%1 (default)").arg(codec_item.name)
-                    recorder.codecData.default_index = i
+                if(codec.split("/", 1) == "audio") {
+                  var codec_item = { name: recorder.audioCodecDescription(codec), value: codec}
+                  if (codec === "audio/x-vorbis") {
+                      codec_item.name = i18n.tr("%1 (default)").arg(codec_item.name)
+                      recorder.codecData.default_index = i
+                  }
+                  recorder.codecData.list.push(codec_item)
                 }
-                recorder.codecData.list.push(codec_item)
             }
 
             // detect file container
-            var container_list = recorder.supportedContainers()
+            /*var container_list = recorder.supportedContainers()
             if (container_list.length > 0) {
                 recorder.containerData.list = []
             }
             for (var i = 0; i < container_list.length; i++) {
                 var container = container_list[i]
-                var container_item = { name: container, value: container }
-                if (container === "audio/ogg") {
-                    container_item.name = i18n.tr("%1 (default)").arg(container_item.name)
-                    recorder.containerData.default_index = i
+                if(container.split("/", 1) == "audio") {
+                  var container_item = { name: recorder.containerDescription(container), value: container }
+                  if (container === "audio/ogg") {
+                      container_item.name = i18n.tr("%1 (default)").arg(container_item.name)
+                      recorder.containerData.default_index = i
+                  }
+                  recorder.containerData.list.push(container_item)
                 }
-                recorder.containerData.list.push(container_item)
-            }
+            }*/
 
             // console.log("---", JSON.stringify(recorder.codecData))
             // console.log("---", JSON.stringify(recorder.containerData))

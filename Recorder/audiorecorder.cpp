@@ -20,6 +20,7 @@
 #include <QDateTime>
 #include <QDir>
 #include <QUrl>
+#include <QMimeDatabase>
 #include "audiorecorder.h"
 
 static QVector<qreal> getBufferLevels(const QAudioBuffer &buffer);
@@ -212,6 +213,16 @@ QStringList AudioRecorder::supportedContainers()
     return m_audioRecorder->supportedContainers();
 }
 
+QString AudioRecorder::audioCodecDescription(const QString &codec)
+{
+    return m_audioRecorder->audioCodecDescription(codec);
+}
+
+QString AudioRecorder::containerDescription(const QString &format)
+{
+    return m_audioRecorder->containerDescription(format);
+}
+
 //-----------------------------------------------------------------------------
 // Public slots
 //-----------------------------------------------------------------------------
@@ -243,7 +254,7 @@ void AudioRecorder::record()
     }
 
     m_audioRecorder->setEncodingSettings(m_audioSettings);
-    m_audioRecorder->setContainerFormat(m_fileContainer);
+    //m_audioRecorder->setContainerFormat("");
 
     QString absoluteFilePath = m_filePath + "/" + newFileName();
     m_audioRecorder->setOutputLocation(QUrl(absoluteFilePath));
@@ -337,23 +348,41 @@ QString AudioRecorder::newFileName()
     QString dateStr = QDateTime::currentDateTime()
             .toString("yyyy-MM-dd-hh-mm-ss-zzz");
     QString fileExtension;
-    if (m_fileContainer == "matroska") {
-        fileExtension = "mkv";
-    } else if (m_fileContainer == "ogg") {
-        fileExtension = "ogg";
-    } else if (m_fileContainer == "wav") {
+    QMimeDatabase mimeDB;
+
+    QStringList suffixes = mimeDB.mimeTypeForName(m_audioCodec).suffixes();
+    QString codecSplit = m_audioCodec.split(",").at(0);
+
+    //qDebug() << "codecSplit:" << codecSplit << endl;
+    //qDebug() << "m_audioCodec[m_audioCodec.size()-1]:" << m_audioCodec[m_audioCodec.size()-1] << endl;
+
+    // some special formats
+    if(codecSplit == "audio/mpeg") {
+      if(m_audioCodec[m_audioCodec.size()-1] == "3") {
+        fileExtension = "mp3";
+      } else if(m_audioCodec[m_audioCodec.size()-1] == "4") {
+        fileExtension = "aac";
+      }
+    } else if(codecSplit == "audio/x-mulaw" ||
+              codecSplit == "audio/x-alaw" ||
+              codecSplit == "audio/x-adpcm") {
         fileExtension = "wav";
-    } else if (m_fileContainer == "avi") {
-        fileExtension = "avi";
-    } else if (m_fileContainer == "3gpp") {
-        fileExtension = "3gp";
-    } else if (m_fileContainer == "flv") {
-        fileExtension = "flv";
-    } else if (m_fileContainer == "raw") {
-        fileExtension = "raw";
     } else {
-        fileExtension = "ogg";
+      // try to resolve container format by first string of splitted one, e.g.: "audio/mpeg, mpegversion=(int)1, layer=(int)3"
+      suffixes = mimeDB.mimeTypeForName(codecSplit).suffixes();
     }
+
+    if(fileExtension.length() == 0 && suffixes.size() > 0) {
+      fileExtension = suffixes.at(0);
+    }
+
+    // still no extension found -> default
+    if (fileExtension.length() == 0) {
+      fileExtension = "ogg";
+    }
+
+    qDebug() << "fileSuffix:" << fileExtension << endl;
+
     m_fileName = dateStr + "." + fileExtension;
     emit fileNameChanged();
     return m_fileName;

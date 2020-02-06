@@ -304,7 +304,7 @@ Page {
                 }
             }
 
-            ListItem {
+            /*ListItem {
                 visible: settingsPage.state === "advanced"
                 height: visible ? containerLayout.height + (divider.visible ? divider.height : 0) : 0
                 highlightColor: "#246588"
@@ -338,7 +338,7 @@ Page {
                         color: UbuntuColors.porcelain
                     }
                 }
-            }
+            }*/
 
             ListItem {
                 visible: settingsPage.state === "advanced" && settings.audioCodec !== "audio/vorbis" && settings.audioCodec !== "default"
