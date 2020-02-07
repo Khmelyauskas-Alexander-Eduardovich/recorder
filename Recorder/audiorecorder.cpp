@@ -377,7 +377,9 @@ QString AudioRecorder::newFileName()
     }
 
     // still no extension found -> default
-    if (fileExtension.length() == 0) {
+    if (fileExtension.length() == 0 ||
+        m_audioCodec == "audio/vorbis" ||
+        m_audioCodec == "audio/x-vorbis") {
       fileExtension = "ogg";
     }
 

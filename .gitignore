@@ -47,6 +47,7 @@ po/template.pot
 
 # build
 /build
+.build
 
 # intellij
 .idea

@@ -1,3 +1,4 @@
 {
-  "template": "qmake"
+  "template": "qmake",
+  "build_dir": "${ROOT}/.build/${ARCH_TRIPLET}/recorder"
 }

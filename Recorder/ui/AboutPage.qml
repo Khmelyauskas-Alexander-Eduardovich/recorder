@@ -212,15 +212,16 @@ Page {
 
                 function initialize() {
                     // Resources
-                    creditsModel.append({ category: i18n.tr("Resources"), name: i18n.tr("Bugs"), link: "https://github.com/dawndiy/recorder/issues" })
-                    creditsModel.append({ category: i18n.tr("Resources"), name: i18n.tr("Contact"), link: "mailto:dawndiy.dev@gmail.com" })
-                    creditsModel.append({ category: i18n.tr("Resources"), name: i18n.tr("Translations"), link: "https://translations.launchpad.net/recorder" })
+                    creditsModel.append({ category: i18n.tr("Resources"), name: i18n.tr("Bugs"), link: "https://github.com/luksus42/recorder/issues" })
+                    creditsModel.append({ category: i18n.tr("Resources"), name: i18n.tr("Contact"), link: "mailto:lukas42@posteo.de" })
+                    creditsModel.append({ category: i18n.tr("Resources"), name: i18n.tr("Translations"), link: "https://github.com/luksus42/recorder/tree/master/po" })
 
                     // Icon
                     creditsModel.append({ category: i18n.tr("Icon"), name: "DawnDIY", link: "https://github.com/dawndiy" })
 
                     // Developers
                     creditsModel.append({ category: i18n.tr("Developers"), name: "DawnDIY", link: "https://github.com/dawndiy" })
+                    creditsModel.append({ category: i18n.tr("Maintainer"), name: "Luksus", link: "https://github.com/luksus42" })
 
                     // Powered By
                     // creditsModel.append({ category: i18n.tr("Powered by"), name: "XXXX", link: "XXXX" })
