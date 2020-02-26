@@ -144,7 +144,8 @@ Page {
             left: parent.left
             right: parent.right
         }
-        contentHeight: column.height
+        flickableDirection: Flickable.AutoFlickIfNeeded
+        contentHeight: column.childrenRect.height
 
         Column {
             id: column
