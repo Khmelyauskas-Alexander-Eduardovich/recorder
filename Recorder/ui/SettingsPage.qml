@@ -144,7 +144,8 @@ Page {
             left: parent.left
             right: parent.right
         }
-        contentHeight: column.height
+        flickableDirection: Flickable.AutoFlickIfNeeded
+        contentHeight: column.childrenRect.height
 
         Column {
             id: column
@@ -253,13 +254,11 @@ Page {
                     id: gQualityLayout
                     title.text: i18n.tr("Record Quality")
                     title.color: "white"
+                    subtitle.text: recorder.getDataName(recorder.qualityData, settings.encodingQuality)
+                    subtitle.color: UbuntuColors.porcelain
 
-                    ProgressionSlot { color: "white" }
+                    ProgressionSlot { color: "white"}
 
-                    Label {
-                        text: recorder.getDataName(recorder.qualityData, settings.encodingQuality)
-                        color: UbuntuColors.porcelain
-                    }
                 }
 
             }
@@ -294,13 +293,11 @@ Page {
 
                     title.text: i18n.tr("Audio Codec")
                     title.color: "white"
+                    subtitle.text: recorder.getDataName(recorder.codecData, settings.audioCodec)
+                    subtitle.color: UbuntuColors.porcelain
 
                     ProgressionSlot { color: "white" }
 
-                    Label {
-                        text: recorder.getDataName(recorder.codecData, settings.audioCodec)
-                        color: UbuntuColors.porcelain
-                    }
                 }
             }
 
@@ -330,13 +327,11 @@ Page {
 
                     title.text: i18n.tr("File Container")
                     title.color: "white"
+                    subtitle.text: recorder.getDataName(recorder.containerData, settings.fileContainer)
+                    subtitle.color: UbuntuColors.porcelain
 
                     ProgressionSlot { color: "white" }
 
-                    Label {
-                        text: recorder.getDataName(recorder.containerData, settings.fileContainer)
-                        color: UbuntuColors.porcelain
-                    }
                 }
             }*/
 
@@ -363,13 +358,11 @@ Page {
                     // TRANSLATORS: The count of sound channel
                     title.text: i18n.tr("Channels")
                     title.color: "white"
+                    subtitle.text: recorder.getDataName(recorder.channelData, settings.channels)
+                    subtitle.color: UbuntuColors.porcelain
 
                     ProgressionSlot { color: "white" }
 
-                    Label {
-                        text: recorder.getDataName(recorder.channelData, settings.channels)
-                        color: UbuntuColors.porcelain
-                    }
                 }
             }
 
@@ -397,13 +390,11 @@ Page {
 
                     title.text: i18n.tr("Encoding Mode")
                     title.color: "white"
+                    subtitle.text: recorder.getDataName(recorder.encodingModeData, settings.encodingMode)
+                    subtitle.color: UbuntuColors.porcelain
 
                     ProgressionSlot { color: "white" }
 
-                    Label {
-                        text: recorder.getDataName(recorder.encodingModeData, settings.encodingMode)
-                        color: UbuntuColors.porcelain
-                    }
                 }
             }
 
@@ -431,13 +422,11 @@ Page {
 
                     title.text: i18n.tr("Encoding Quality")
                     title.color: "white"
+                    subtitle.text: recorder.getDataName(recorder.qualityData, settings.encodingQuality)
+                    subtitle.color: UbuntuColors.porcelain
 
                     ProgressionSlot { color: "white" }
 
-                    Label {
-                        text: recorder.getDataName(recorder.qualityData, settings.encodingQuality)
-                        color: UbuntuColors.porcelain
-                    }
                 }
             }
 
@@ -465,13 +454,11 @@ Page {
 
                     title.text: i18n.tr("Bitrate")
                     title.color: "white"
+                    subtitle.text: recorder.getDataName(recorder.bitrateData, settings.bitrate)
+                    subtitle.color: UbuntuColors.porcelain
 
                     ProgressionSlot { color: "white" }
 
-                    Label {
-                        text: recorder.getDataName(recorder.bitrateData, settings.bitrate)
-                        color: UbuntuColors.porcelain
-                    }
                 }
             }
         }
