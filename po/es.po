@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: recorder\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-05 21:49+0000\n"
+"POT-Creation-Date: 2020-03-04 20:45+0000\n"
 "PO-Revision-Date: 2018-03-13 20:20+0100\n"
 "Last-Translator: advocatux <advocatux@airpost.net>\n"
 "Language-Team: UBports Spanish Team\n"
@@ -31,8 +31,7 @@ msgstr "Calidad baja"
 #: /home/luke/Code/UbuntuTouch/recorder/Recorder/Main.qml:104
 #: /home/luke/Code/UbuntuTouch/recorder/Recorder/Main.qml:115
 #: /home/luke/Code/UbuntuTouch/recorder/Recorder/Main.qml:123
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/Main.qml:189
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/Main.qml:204
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/Main.qml:190
 #, qt-format
 msgid "%1 (default)"
 msgstr "%1 (predeterminada)"
@@ -81,7 +80,7 @@ msgstr "Asistencia"
 #. TRANSLATORS: Recorder is the name of this App.
 #: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/AboutPage.qml:132
 #: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/HomePage.qml:31
-#: /home/luke/Code/UbuntuTouch/recorder/build/x86_64-linux-gnu/app/Recorder/Recorder.desktop.h:1
+#: /home/luke/Code/UbuntuTouch/recorder/.build/aarch64-linux-gnu/recorder/Recorder/Recorder.desktop.h:1
 msgid "Recorder"
 msgstr "Grabadora"
 
@@ -136,6 +135,11 @@ msgstr "Icono"
 msgid "Developers"
 msgstr "Desarrolladores"
 
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/AboutPage.qml:224
+#, fuzzy
+msgid "Maintainer"
+msgstr "Contenedor de archivo"
+
 #: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/DonatePage.qml:173
 msgid "Please donate if you like this App. :)"
 msgstr "Realice una donación si le gustó esta apli :)"
@@ -174,7 +178,8 @@ msgstr "Saltar"
 
 #. TRANSLATORS: The title of introduction page
 #: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/IntroPage.qml:54
-msgid "Easy to recording"
+#, fuzzy
+msgid "Simple recording"
 msgstr "Es fácil grabar"
 
 #: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/IntroPage.qml:55
@@ -333,7 +338,7 @@ msgstr "Guardar"
 
 #: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:506
 #: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:564
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:499
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:486
 msgid "Cancel"
 msgstr "Cancelar"
 
@@ -382,8 +387,8 @@ msgstr "Configuración avanzada"
 
 #: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:75
 #: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:121
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:488
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:493
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:475
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:480
 msgid "Reset"
 msgstr "Restablecer"
 
@@ -396,55 +401,50 @@ msgstr "Se ha restablecido toda la configuración."
 msgid "General Settings"
 msgstr "Configuración general"
 
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:157
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:158
 msgid "Keep screen on"
 msgstr "Mantener la pantalla encendida"
 
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:174
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:175
 msgid "Show sound wave"
 msgstr "Mostrar la onda acústica"
 
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:191
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:192
 msgid "Microphone volume"
 msgstr "Volumen del micrófono"
 
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:245
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:254
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:246
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:255
 msgid "Record Quality"
 msgstr "Calidad de grabación"
 
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:285
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:295
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:284
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:294
 msgid "Audio Codec"
 msgstr "Códec de audio"
 
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:321
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:331
-msgid "File Container"
-msgstr "Contenedor de archivo"
-
 #. TRANSLATORS: The count of sound channel
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:353
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:364
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:348
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:359
 msgid "Channels"
 msgstr "Canales"
 
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:388
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:398
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:381
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:391
 msgid "Encoding Mode"
 msgstr "Modo de codificación"
 
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:422
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:432
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:413
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:423
 msgid "Encoding Quality"
 msgstr "Calidad de codificación"
 
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:456
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:466
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:445
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:455
 msgid "Bitrate"
 msgstr "Tasa de bits"
 
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:489
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:476
 msgid "Do you want reset settings?"
 msgstr "¿Quiere restablecer la configuración?"
 

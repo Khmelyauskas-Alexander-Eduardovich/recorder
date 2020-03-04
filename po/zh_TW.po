@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: recorder\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-05 21:49+0000\n"
+"POT-Creation-Date: 2020-03-04 20:45+0000\n"
 "PO-Revision-Date: 2016-12-25 22:46+0000\n"
 "Last-Translator: Cheng Lu <chenglu1990@gmail.com>\n"
 "Language-Team: Chinese (China) <i18n-zh@googlegroups.com>\n"
@@ -34,8 +34,7 @@ msgstr "低品質"
 #: /home/luke/Code/UbuntuTouch/recorder/Recorder/Main.qml:104
 #: /home/luke/Code/UbuntuTouch/recorder/Recorder/Main.qml:115
 #: /home/luke/Code/UbuntuTouch/recorder/Recorder/Main.qml:123
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/Main.qml:189
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/Main.qml:204
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/Main.qml:190
 #, qt-format
 msgid "%1 (default)"
 msgstr "%1 (默認)"
@@ -84,7 +83,7 @@ msgstr "支持"
 #. TRANSLATORS: Recorder is the name of this App.
 #: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/AboutPage.qml:132
 #: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/HomePage.qml:31
-#: /home/luke/Code/UbuntuTouch/recorder/build/x86_64-linux-gnu/app/Recorder/Recorder.desktop.h:1
+#: /home/luke/Code/UbuntuTouch/recorder/.build/aarch64-linux-gnu/recorder/Recorder/Recorder.desktop.h:1
 msgid "Recorder"
 msgstr "錄音機"
 
@@ -139,6 +138,11 @@ msgstr "圖標"
 msgid "Developers"
 msgstr "開發者"
 
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/AboutPage.qml:224
+#, fuzzy
+msgid "Maintainer"
+msgstr "文件容器"
+
 #: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/DonatePage.qml:173
 msgid "Please donate if you like this App. :)"
 msgstr "如果你喜歡這個應用請捐贈。:)"
@@ -177,7 +181,8 @@ msgstr "跳過"
 
 #. TRANSLATORS: The title of introduction page
 #: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/IntroPage.qml:54
-msgid "Easy to recording"
+#, fuzzy
+msgid "Simple recording"
 msgstr "簡單的錄音"
 
 #: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/IntroPage.qml:55
@@ -336,7 +341,7 @@ msgstr "保存"
 
 #: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:506
 #: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:564
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:499
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:486
 msgid "Cancel"
 msgstr "取消"
 
@@ -385,8 +390,8 @@ msgstr "高級設置"
 
 #: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:75
 #: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:121
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:488
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:493
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:475
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:480
 msgid "Reset"
 msgstr "重置"
 
@@ -399,55 +404,50 @@ msgstr "所有設置已重置。"
 msgid "General Settings"
 msgstr "常規設置"
 
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:157
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:158
 msgid "Keep screen on"
 msgstr "保持屏幕喚醒"
 
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:174
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:175
 msgid "Show sound wave"
 msgstr "顯示音波圖"
 
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:191
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:192
 msgid "Microphone volume"
 msgstr "麥克風音量"
 
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:245
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:254
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:246
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:255
 msgid "Record Quality"
 msgstr "錄音品質"
 
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:285
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:295
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:284
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:294
 msgid "Audio Codec"
 msgstr "音頻編碼"
 
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:321
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:331
-msgid "File Container"
-msgstr "文件容器"
-
 #. TRANSLATORS: The count of sound channel
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:353
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:364
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:348
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:359
 msgid "Channels"
 msgstr "聲道"
 
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:388
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:398
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:381
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:391
 msgid "Encoding Mode"
 msgstr "編碼模式"
 
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:422
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:432
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:413
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:423
 msgid "Encoding Quality"
 msgstr "編碼品質"
 
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:456
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:466
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:445
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:455
 msgid "Bitrate"
 msgstr "比特率"
 
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:489
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:476
 msgid "Do you want reset settings?"
 msgstr "你確定要重置設置？"
 
