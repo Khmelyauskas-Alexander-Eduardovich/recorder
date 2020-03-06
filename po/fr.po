@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: recorder\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-04 20:45+0000\n"
-"PO-Revision-Date: 2016-12-26 20:57+0000\n"
+"PO-Revision-Date: 2020-03-06 14:20+0100\n"
 "Last-Translator: Anne017 <anneonyme017@openmailbox.org>\n"
 "Language-Team: French <fr@li.org>\n"
 "Language: fr\n"
@@ -16,7 +16,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Launchpad-Export-Date: 2016-12-27 05:11+0000\n"
-"X-Generator: Launchpad (build 18298)\n"
 
 #. TRANSLATORS: This is a quality option in Record Quality.
 #: /home/luke/Code/UbuntuTouch/recorder/Recorder/Main.qml:100
@@ -77,7 +76,7 @@ msgstr "À propos"
 #. TRANSLATORS: A section name of top Sections.
 #: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/AboutPage.qml:53
 msgid "Support"
-msgstr "Assistance"
+msgstr "Aide"
 
 #. TRANSLATORS: Recorder is the name of this App.
 #: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/AboutPage.qml:132
@@ -119,7 +118,7 @@ msgstr "Code source"
 
 #: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/AboutPage.qml:215
 msgid "Bugs"
-msgstr "Anomalies"
+msgstr "Problèmes"
 
 #: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/AboutPage.qml:216
 msgid "Contact"
@@ -138,9 +137,8 @@ msgid "Developers"
 msgstr "Développeurs"
 
 #: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/AboutPage.qml:224
-#, fuzzy
 msgid "Maintainer"
-msgstr "Conteneur de fichier"
+msgstr "Mainteneur"
 
 #: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/DonatePage.qml:173
 msgid "Please donate if you like this App. :)"
@@ -161,11 +159,11 @@ msgstr "Paramètres"
 
 #: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/HomePage.qml:68
 msgid "Share"
-msgstr ""
+msgstr "Partager"
 
 #: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/HomePage.qml:75
 msgid "Please load or create a recording first."
-msgstr ""
+msgstr "Veuillez tout d'abord charger ou créer un enregistrement."
 
 #: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/HomePage.qml:343
 #: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/HomePage.qml:398
@@ -180,9 +178,8 @@ msgstr "Ignorer"
 
 #. TRANSLATORS: The title of introduction page
 #: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/IntroPage.qml:54
-#, fuzzy
 msgid "Simple recording"
-msgstr "C'est facile d'enregistrer"
+msgstr "Enregistrement simple"
 
 #: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/IntroPage.qml:55
 msgid ""
@@ -257,7 +254,7 @@ msgstr "Tri"
 #. TRANSLATORS: OK to comfirm export files.
 #: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:125
 msgid "OK"
-msgstr "OK"
+msgstr "Valider"
 
 #: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:159
 msgid "Search..."
@@ -296,35 +293,35 @@ msgstr "Informations sur l'enregistrement"
 #: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:433
 #, qt-format
 msgid "<b>Name</b>: %1"
-msgstr "<b>Nom :</b> %1"
+msgstr "<b>Nom :</b> %1"
 
 #: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:437
 #, qt-format
 msgid "<b>Type</b>: %1"
-msgstr "<b>Type :</b> %1"
+msgstr "<b>Type :</b> %1"
 
 #: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:441
 #, qt-format
 msgid "<b>Size</b>: %1 (%2 B)"
-msgstr "<b>Taille :</b> %1 (%2 o)"
+msgstr "<b>Taille :</b> %1 (%2 o)"
 
 #. TRANSLATORS: The location where the record file is stored.
 #: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:447
 #, qt-format
 msgid "<b>Location</b>: %1"
-msgstr "<b>Emplacement :</b> %1"
+msgstr "<b>Emplacement :</b> %1"
 
 #. TRANSLATORS: The last accessed time.
 #: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:453
 #, qt-format
 msgid "<b>Accessed</b>: %1"
-msgstr "<b>Dernier accès le :</b> %1"
+msgstr "<b>Dernier accès le :</b> %1"
 
 #. TRANSLATORS: The last modified time.
 #: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:459
 #, qt-format
 msgid "<b>Modified</b>: %1"
-msgstr "<b>Modifié le :</b> %1"
+msgstr "<b>Modifié le :</b> %1"
 
 #: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:486
 msgid "Rename Record File"
@@ -379,7 +376,7 @@ msgstr "Par taille (décroissante)"
 #: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:555
 #, qt-format
 msgid "Do you want delete %1 ?"
-msgstr "Voulez-vous vraiment supprimer %1 ?"
+msgstr "Voulez-vous vraiment supprimer %1 ?"
 
 #. TRANSLATORS: The title of advanced settings page
 #: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:68
@@ -448,8 +445,8 @@ msgstr "Taux d'échantillonnage"
 
 #: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:476
 msgid "Do you want reset settings?"
-msgstr "Voulez-vous vraiment réinitialiser les paramètres ?"
+msgstr "Voulez-vous vraiment réinitialiser les paramètres ?"
 
 #: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SharePage.qml:35
 msgid "Share with"
-msgstr ""
+msgstr "Partager avec"
