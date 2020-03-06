@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: recorder\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-04 20:45+0000\n"
+"POT-Creation-Date: 2020-03-06 19:56+0000\n"
 "PO-Revision-Date: 2016-12-27 21:08+0000\n"
 "Last-Translator: Gabriele <Unknown>\n"
 "Language-Team: Italian <it@li.org>\n"
@@ -82,7 +82,7 @@ msgstr "Supporto"
 #. TRANSLATORS: Recorder is the name of this App.
 #: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/AboutPage.qml:132
 #: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/HomePage.qml:31
-#: /home/luke/Code/UbuntuTouch/recorder/.build/aarch64-linux-gnu/recorder/Recorder/Recorder.desktop.h:1
+#: /home/luke/Code/UbuntuTouch/recorder/.build/x86_64-linux-gnu/recorder/Recorder/Recorder.desktop.h:1
 msgid "Recorder"
 msgstr "Recorder"
 
@@ -134,10 +134,17 @@ msgid "Icon"
 msgstr "Icona"
 
 #: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/AboutPage.qml:223
+#, fuzzy
+msgid "Translators"
+msgstr "Traduzioni"
+
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/AboutPage.qml:226
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/AboutPage.qml:227
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/AboutPage.qml:228
 msgid "Developers"
 msgstr "Sviluppatori"
 
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/AboutPage.qml:224
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/AboutPage.qml:230
 #, fuzzy
 msgid "Maintainer"
 msgstr "Container dei file"

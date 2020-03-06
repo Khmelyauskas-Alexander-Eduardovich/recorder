@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: recorder\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-04 20:45+0000\n"
+"POT-Creation-Date: 2020-03-06 19:56+0000\n"
 "PO-Revision-Date: 2016-12-25 22:46+0000\n"
 "Last-Translator: Cheng Lu <chenglu1990@gmail.com>\n"
 "Language-Team: Chinese (China) <i18n-zh@googlegroups.com>\n"
@@ -83,7 +83,7 @@ msgstr "支持"
 #. TRANSLATORS: Recorder is the name of this App.
 #: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/AboutPage.qml:132
 #: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/HomePage.qml:31
-#: /home/luke/Code/UbuntuTouch/recorder/.build/aarch64-linux-gnu/recorder/Recorder/Recorder.desktop.h:1
+#: /home/luke/Code/UbuntuTouch/recorder/.build/x86_64-linux-gnu/recorder/Recorder/Recorder.desktop.h:1
 msgid "Recorder"
 msgstr "錄音機"
 
@@ -135,10 +135,17 @@ msgid "Icon"
 msgstr "圖標"
 
 #: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/AboutPage.qml:223
+#, fuzzy
+msgid "Translators"
+msgstr "翻譯"
+
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/AboutPage.qml:226
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/AboutPage.qml:227
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/AboutPage.qml:228
 msgid "Developers"
 msgstr "開發者"
 
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/AboutPage.qml:224
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/AboutPage.qml:230
 #, fuzzy
 msgid "Maintainer"
 msgstr "文件容器"

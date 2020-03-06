@@ -219,8 +219,14 @@ Page {
                     // Icon
                     creditsModel.append({ category: i18n.tr("Icon"), name: "DawnDIY", link: "https://github.com/dawndiy" })
 
+                    //Translators
+                    creditsModel.append({ category: i18n.tr("Translators"), name: "Anne017", link: "https://github.com/Anne017" })
+
                     // Developers
                     creditsModel.append({ category: i18n.tr("Developers"), name: "DawnDIY", link: "https://github.com/dawndiy" })
+                    creditsModel.append({ category: i18n.tr("Developers"), name: "Luksus", link: "https://github.com/luksus42" })
+                    creditsModel.append({ category: i18n.tr("Developers"), name: "Danfro", link: "https://github.com/Danfro" })
+
                     creditsModel.append({ category: i18n.tr("Maintainer"), name: "Luksus", link: "https://github.com/luksus42" })
 
                     // Powered By
