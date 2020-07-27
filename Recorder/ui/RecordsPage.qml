@@ -174,6 +174,9 @@ Page {
 
         function setFilter(key) {
             var defaultFilters = [
+                "*.aac",
+                "*.wav",
+                "*.flac",
                 "*.mkv",
                 "*.ogg",
                 "*.wav",

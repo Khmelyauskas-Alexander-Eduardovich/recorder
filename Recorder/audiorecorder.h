@@ -69,12 +69,14 @@ public:
     qint64 recordTime() const;
     State recordState() const;
     QString audioCodec() const;
+    QString audioInput() const;
     QString fileContainer() const;
     int channels() const;
     EncodingMode encodingMode() const;
     EncodingQuality encodingQuality() const;
     int bitrate() const;
 
+    void setAudioInput(const QString& name);
     void setMicrophoneVolume(const qreal volume);
     void setAudioCodec(const QString& codec);
     void setFileContainer(const QString& container);
@@ -83,10 +85,13 @@ public:
     void setEncodingQuality(const EncodingQuality quality);
     void setBitrate(const int bitrate);
 
+    Q_INVOKABLE QStringList audioInputDevices();
     Q_INVOKABLE QStringList supportedAudioCodecs();
     Q_INVOKABLE QStringList supportedContainers();
+    Q_INVOKABLE QString audioInputDescription(const QString& name);
     Q_INVOKABLE QString audioCodecDescription(const QString& codec);
-    Q_INVOKABLE QString containerDescription(const QString& format) ;
+    Q_INVOKABLE QString containerDescription(const QString& format);
+    Q_INVOKABLE QString defaultAudioInput();
 
 signals:
     void microphoneVolumeChanged(qreal volume);
@@ -125,6 +130,7 @@ private:
 
     QString m_audioCodec;
     QString m_fileContainer;
+    QString m_audioInput;
     int m_channels;
     EncodingMode m_encodingMode;
     EncodingQuality m_encodingQuality;

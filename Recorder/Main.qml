@@ -41,7 +41,7 @@ MainView {
     // Note! applicationName needs to match the "name" field of the click manifest
     applicationName: "audio-recorder.luksus"
 
-    property string appVersion: "1.0.4"
+    property string appVersion: "1.0.8"
 
     width: units.gu(50)
     height: units.gu(75)
@@ -71,6 +71,7 @@ MainView {
 
         property string audioCodec: "default"
         property string fileContainer: "default"
+        property string audioInput: "default"
         property int channels: 1
         property int encodingMode: -1
         property int encodingQuality: -1
@@ -132,6 +133,11 @@ MainView {
             'list': []
         })
         property var containerData: ({
+            'default_index': 0,
+            'list': []
+        })
+
+        property var audioInputData: ({
             'default_index': 0,
             'list': []
         })
@@ -213,6 +219,22 @@ MainView {
 
             // console.log("---", JSON.stringify(recorder.codecData))
             // console.log("---", JSON.stringify(recorder.containerData))
+
+           // get available audio inputs
+           var input_list = recorder.audioInputDevices()
+           var defaultInputs = "default";
+           if (input_list.length > 0) {
+               recorder.audioInputData.list = []
+           }
+           for (var i = 0; i < input_list.length; i++) {
+             var input = input_list[i]
+             var splitInputName = input.split(":");
+             // limit the amount of displayed inputs to the relevant ones
+             //if (splitInputName.length > 0 && (splitInputName[0] == "default" || splitInputName[1] == "default")) {
+               var input_item = { name: "(" + input + ") " + recorder.audioInputDescription(input), value: input}
+               recorder.audioInputData.list.push(input_item)
+             //}
+           }
         }
     }
 
