@@ -9,14 +9,14 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-06 19:56+0000\n"
 "PO-Revision-Date: 2020-07-11 18:10+0200\n"
+"Last-Translator: Heimen Stoffels <vistausss@outlook.com>\n"
 "Language-Team: \n"
+"Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 2.3.1\n"
-"Last-Translator: Heimen Stoffels <vistausss@outlook.com>\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"Language: nl\n"
 
 #. TRANSLATORS: This is a quality option in Record Quality.
 #: /home/luke/Code/UbuntuTouch/recorder/Recorder/Main.qml:100
@@ -103,8 +103,8 @@ msgid ""
 "Released under the terms of the <a href=\"https://github.com/dawndiy/"
 "recorder/blob/master/LICENSE\">GNU GPL v3</a>"
 msgstr ""
-"Uitgebracht onder de voorwaarden van de <a href=\"https://github.com/"
-"dawndiy/recorder/blob/master/LICENSE\">GNU GPL v3</a>"
+"Uitgebracht onder de voorwaarden van de <a href=\"https://github.com/dawndiy/"
+"recorder/blob/master/LICENSE\">GNU GPL v3</a>"
 
 #: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/AboutPage.qml:184
 #: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/DonatePage.qml:30
