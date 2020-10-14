@@ -176,11 +176,18 @@ Page {
             var defaultFilters = [
                 "*.mkv",
                 "*.ogg",
+                "*.oga",
                 "*.wav",
                 "*.avi",
                 "*.3gp",
                 "*.flv",
-                "*.raw"
+                "*.raw",
+                "*.spx",
+                "*.flac",
+                "*.amr",
+                "*.aac",
+                "*.mp3",
+                "*.mpg"
             ];
             if (key) {
                 for (var i = 0; i < defaultFilters.length; i++) {
