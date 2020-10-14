@@ -34,6 +34,7 @@ Page {
         if (data === "audio/vorbis") {
             settings.channels = 1
         }
+        settings.fileContainer = recorder.resolveContainerFormat(data);
     }
 
     function selectContainer(index, data) {
@@ -105,6 +106,9 @@ Page {
                 id: layout
                 title.text: modelData.name
                 title.color: "white"
+                subtitle.text: modelData.subtitle
+                subtitle.color: UbuntuColors.porcelain
+
 
                 Icon {
                     name: "ok"

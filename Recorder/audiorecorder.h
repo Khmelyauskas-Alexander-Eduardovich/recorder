@@ -109,6 +109,8 @@ public slots:
     void stop();
     bool deleteRecordFile(const QString &fileName);
     bool renameRecordFile(const QString &fileName, const QString &newFileName);
+    QString resolveFileExtension(const QString &audioCodec);
+    QString resolveContainerFormat(const QString &audioCodec);
 
 private slots:
     void durationChanged(qint64 duration);

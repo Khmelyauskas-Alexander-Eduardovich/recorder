@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: recorder\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-06 19:56+0000\n"
+"POT-Creation-Date: 2020-10-14 22:51+0000\n"
 "PO-Revision-Date: 2020-02-26 22:43+0100\n"
 "Last-Translator: Daniel Frost <one@frostinfo.de>\n"
 "Language-Team: German <de@li.org>\n"
@@ -33,7 +33,8 @@ msgstr "Niedrige Qualität"
 #: /home/luke/Code/UbuntuTouch/recorder/Recorder/Main.qml:104
 #: /home/luke/Code/UbuntuTouch/recorder/Recorder/Main.qml:115
 #: /home/luke/Code/UbuntuTouch/recorder/Recorder/Main.qml:123
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/Main.qml:190
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/Main.qml:191
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/Main.qml:211
 #, qt-format
 msgid "%1 (default)"
 msgstr "%1 (Voreinstellung)"
@@ -82,7 +83,7 @@ msgstr "Support"
 #. TRANSLATORS: Recorder is the name of this App.
 #: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/AboutPage.qml:132
 #: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/HomePage.qml:31
-#: /home/luke/Code/UbuntuTouch/recorder/.build/x86_64-linux-gnu/recorder/Recorder/Recorder.desktop.h:1
+#: /home/luke/Code/UbuntuTouch/recorder/.build/aarch64-linux-gnu/recorder/Recorder/Recorder.desktop.h:1
 msgid "Recorder"
 msgstr "Rekorder"
 
@@ -429,6 +430,16 @@ msgstr "Aufnahme Qualität"
 #: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:294
 msgid "Audio Codec"
 msgstr "Audio Codec"
+
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:318
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:328
+#, fuzzy
+msgid "File Container"
+msgstr "Anwendungsbetreuer"
+
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:330
+msgid "Could not be resolved!"
+msgstr "Nichts passendes gefunden!"
 
 #. TRANSLATORS: The count of sound channel
 #: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:348

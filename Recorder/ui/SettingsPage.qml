@@ -301,7 +301,7 @@ Page {
                 }
             }
 
-            /*ListItem {
+            ListItem {
                 visible: settingsPage.state === "advanced"
                 height: visible ? containerLayout.height + (divider.visible ? divider.height : 0) : 0
                 highlightColor: "#246588"
@@ -327,13 +327,13 @@ Page {
 
                     title.text: i18n.tr("File Container")
                     title.color: "white"
-                    subtitle.text: recorder.getDataName(recorder.containerData, settings.fileContainer)
-                    subtitle.color: UbuntuColors.porcelain
+                    subtitle.text: settings.fileContainer.length == 0 ? i18n.tr("Could not be resolved!") : recorder.getDataName(recorder.containerData, settings.fileContainer)
+                    subtitle.color: settings.fileContainer.length == 0 ? UbuntuColors.red : UbuntuColors.porcelain
 
                     ProgressionSlot { color: "white" }
 
                 }
-            }*/
+            }
 
             ListItem {
                 visible: settingsPage.state === "advanced" && settings.audioCodec !== "audio/vorbis" && settings.audioCodec !== "default"

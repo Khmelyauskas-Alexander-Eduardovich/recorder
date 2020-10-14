@@ -41,7 +41,7 @@ MainView {
     // Note! applicationName needs to match the "name" field of the click manifest
     applicationName: "audio-recorder.luksus"
 
-    property string appVersion: "1.0.4"
+    property string appVersion: "1.0.9"
 
     width: units.gu(50)
     height: units.gu(75)
@@ -157,7 +157,7 @@ MainView {
         }
 
         audioCodec: settings.audioCodec
-        fileContainer: ""
+        fileContainer: settings.fileContainer
         channels: settings.channels
         encodingMode: settings.encodingMode == -1 ?
                           Recorder.QualityMode : settings.encodingMode == 0 ?
@@ -178,41 +178,46 @@ MainView {
         Component.onCompleted: {
 
             // detect audio codec
-            var codec_list = recorder.supportedAudioCodecs()
+            var codec_list = recorder.supportedAudioCodecs();
             if (codec_list.length > 0) {
-                recorder.codecData.list = []
+                recorder.codecData.list = [];
             }
+            var audioIndex = 0;
             for (var i = 0; i < codec_list.length; i++) {
-                var codec = codec_list[i]
+                var codec = codec_list[i];
                 if(codec.split("/", 1) == "audio") {
-                  var codec_item = { name: recorder.audioCodecDescription(codec), value: codec}
+                  var codec_item = { name: recorder.audioCodecDescription(codec), subtitle: recorder.resolveFileExtension(codec), value: codec};
                   if (codec === "audio/x-vorbis") {
-                      codec_item.name = i18n.tr("%1 (default)").arg(codec_item.name)
-                      recorder.codecData.default_index = i
+                      codec_item.name = i18n.tr("%1 (default)").arg(codec_item.name);
+                      recorder.codecData.default_index = audioIndex;
                   }
-                  recorder.codecData.list.push(codec_item)
+                  recorder.codecData.list.push(codec_item);
+                  audioIndex++;
                 }
             }
 
             // detect file container
-            /*var container_list = recorder.supportedContainers()
+            var container_list = recorder.supportedContainers();
             if (container_list.length > 0) {
-                recorder.containerData.list = []
+                recorder.containerData.list = [];
             }
+            audioIndex = 0;
             for (var i = 0; i < container_list.length; i++) {
-                var container = container_list[i]
+                var container = container_list[i];
                 if(container.split("/", 1) == "audio") {
-                  var container_item = { name: recorder.containerDescription(container), value: container }
+                  console.debug("console.debug(container): ", container, recorder.containerDescription(container));
+                  var container_item = { name: recorder.containerDescription(container), value: container };
                   if (container === "audio/ogg") {
-                      container_item.name = i18n.tr("%1 (default)").arg(container_item.name)
-                      recorder.containerData.default_index = i
+                      container_item.name = i18n.tr("%1 (default)").arg(container_item.name);
+                      recorder.containerData.default_index = audioIndex;
                   }
-                  recorder.containerData.list.push(container_item)
+                  recorder.containerData.list.push(container_item);
+                  audioIndex++;
                 }
-            }*/
+            }
 
             // console.log("---", JSON.stringify(recorder.codecData))
-            // console.log("---", JSON.stringify(recorder.containerData))
+            //console.log("supported Containers:\n\n", recorder.supportedContainers());
         }
     }
 

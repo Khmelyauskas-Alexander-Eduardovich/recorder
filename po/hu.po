@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: recorder\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-06 19:56+0000\n"
+"POT-Creation-Date: 2020-10-14 22:51+0000\n"
 "PO-Revision-Date: 2017-01-01 13:43+0000\n"
 "Last-Translator: Richard Somlói <ricsipontaz@gmail.com>\n"
 "Language-Team: Hungarian <hu@li.org>\n"
@@ -33,7 +33,8 @@ msgstr "Alacsony minőség"
 #: /home/luke/Code/UbuntuTouch/recorder/Recorder/Main.qml:104
 #: /home/luke/Code/UbuntuTouch/recorder/Recorder/Main.qml:115
 #: /home/luke/Code/UbuntuTouch/recorder/Recorder/Main.qml:123
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/Main.qml:190
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/Main.qml:191
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/Main.qml:211
 #, qt-format
 msgid "%1 (default)"
 msgstr "%1 (alapértelmezés)"
@@ -82,7 +83,7 @@ msgstr "Támogatás"
 #. TRANSLATORS: Recorder is the name of this App.
 #: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/AboutPage.qml:132
 #: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/HomePage.qml:31
-#: /home/luke/Code/UbuntuTouch/recorder/.build/x86_64-linux-gnu/recorder/Recorder/Recorder.desktop.h:1
+#: /home/luke/Code/UbuntuTouch/recorder/.build/aarch64-linux-gnu/recorder/Recorder/Recorder.desktop.h:1
 msgid "Recorder"
 msgstr "Rögzítő"
 
@@ -431,6 +432,16 @@ msgstr "Felvétel minősége"
 #: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:294
 msgid "Audio Codec"
 msgstr "Hangkodek"
+
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:318
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:328
+#, fuzzy
+msgid "File Container"
+msgstr "Fájlkonténer"
+
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:330
+msgid "Could not be resolved!"
+msgstr ""
 
 #. TRANSLATORS: The count of sound channel
 #: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:348
