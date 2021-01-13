@@ -323,7 +323,7 @@ Page {
             ListItemLayout {
                 id: layout
 
-                title.text: fileBaseName
+                title.text: fileBaseName +"."+ fileSuffix
                 title.color: "white"
                 subtitle.text: formatSize(fileSize)
                 subtitle.color: UbuntuColors.porcelain
