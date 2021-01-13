@@ -29,6 +29,10 @@ Page {
     property var selectFunc: null
     property var selectedValue: null
 
+    function selectAudioInput(index, data) {
+        settings.audioInput = data
+    }
+
     function selectCodec(index, data) {
         settings.audioCodec = data
         if (data === "audio/vorbis") {
@@ -122,6 +126,13 @@ Page {
     }
 
     states: [
+        State {
+            name: "audioInput"
+            PropertyChanges {
+                target: selectionPage
+                selectFunc: selectAudioInput
+            }
+        },
         State {
             name: "codec"
             PropertyChanges {
