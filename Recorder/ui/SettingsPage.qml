@@ -267,7 +267,7 @@ Page {
 
             ListItem {
                 visible: settingsPage.state === "advanced"
-                height: visible ? gQualityLayout.height + (divider.visible ? divider.height : 0) : 0
+                height: visible ? gAudioInputLayout.height + (divider.visible ? divider.height : 0) : 0
                 highlightColor: "#246588"
 
                 onClicked: {

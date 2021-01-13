@@ -218,7 +218,7 @@ MainView {
                 var container = container_list[i];
                 if(container.split("/", 1) == "audio") {
                   console.debug("console.debug(container): ", container, recorder.containerDescription(container));
-                  var container_item = { name: recorder.containerDescription(container), value: container };
+                  var container_item = { name: recorder.containerDescription(container), subtitle: "", value: container };
                   if (container === "audio/ogg") {
                       container_item.name = i18n.tr("%1 (default)").arg(container_item.name);
                       recorder.containerData.default_index = audioIndex;
@@ -242,7 +242,7 @@ MainView {
              var splitInputName = input.split(":");
              // limit the amount of displayed inputs to the relevant ones
              //if (splitInputName.length > 0 && (splitInputName[0] == "default" || splitInputName[1] == "default")) {
-               var input_item = { name: "(" + input + ") " + recorder.audioInputDescription(input), value: input}
+               var input_item = { name: input, subtitle: recorder.audioInputDescription(input), value: input}
                recorder.audioInputData.list.push(input_item)
              //}
            }
