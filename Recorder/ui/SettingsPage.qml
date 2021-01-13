@@ -243,36 +243,6 @@ Page {
                                 settingsPage,
                                 Qt.resolvedUrl("SelectionPage.qml"),
                                 {
-                                    title: i18n.tr("Input Device"),
-                                    listData: recorder.audioInputData.list,
-                                    state: "audioInput",
-                                    selectedValue: settings.audioInput === "default" ? recorder.defaultAudioInput() : settings.audioInput
-                                })
-                }
-
-                ListItemLayout {
-                    id: gAudioInputLayout
-                    title.text: i18n.tr("Input Device")
-                    title.color: "white"
-                    subtitle.text: recorder.audioInputDescription(settings.audioInput === "default" ? recorder.defaultAudioInput() : settings.audioInput)
-                    subtitle.color: UbuntuColors.porcelain
-
-                    ProgressionSlot { color: "white"}
-
-                }
-
-            }
-
-            ListItem {
-                visible: settingsPage.state === "general"
-                height: visible ? gQualityLayout.height + (divider.visible ? divider.height : 0) : 0
-                highlightColor: "#246588"
-
-                onClicked: {
-                    pageLayout.addPageToCurrentColumn(
-                                settingsPage,
-                                Qt.resolvedUrl("SelectionPage.qml"),
-                                {
                                     title: i18n.tr("Record Quality"),
                                     listData: recorder.qualityData.list,
                                     state: "recordQuality",
@@ -294,6 +264,36 @@ Page {
             }
 
             // Advanced Settings
+
+            ListItem {
+                visible: settingsPage.state === "advanced"
+                height: visible ? gQualityLayout.height + (divider.visible ? divider.height : 0) : 0
+                highlightColor: "#246588"
+
+                onClicked: {
+                    pageLayout.addPageToCurrentColumn(
+                                settingsPage,
+                                Qt.resolvedUrl("SelectionPage.qml"),
+                                {
+                                    title: i18n.tr("Input Device"),
+                                    listData: recorder.audioInputData.list,
+                                    state: "audioInput",
+                                    selectedValue: settings.audioInput === "default" ? recorder.defaultAudioInput() : settings.audioInput
+                                })
+                }
+
+                ListItemLayout {
+                    id: gAudioInputLayout
+                    title.text: i18n.tr("Input Device")
+                    title.color: "white"
+                    subtitle.text: recorder.audioInputDescription(settings.audioInput === "default" ? recorder.defaultAudioInput() : settings.audioInput)
+                    subtitle.color: UbuntuColors.porcelain
+
+                    ProgressionSlot { color: "white"}
+
+                }
+
+            }
 
             ListItem {
                 visible: settingsPage.state === "advanced"
