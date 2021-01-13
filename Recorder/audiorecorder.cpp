@@ -48,6 +48,7 @@ AudioRecorder::AudioRecorder(QObject *parent) : QObject(parent)
     }
 
     // default audio settings
+    m_audioInput = "default";
     m_audioCodec = "audio/x-vorbis";
     m_fileContainer = "audio/ogg";
     m_channels = 2;
@@ -105,6 +106,11 @@ AudioRecorder::State AudioRecorder::recordState() const
     return m_state;
 }
 
+QString AudioRecorder::audioInput() const
+{
+    return m_audioInput;
+}
+
 QString AudioRecorder::audioCodec() const
 {
     return m_audioCodec;
@@ -141,6 +147,14 @@ void AudioRecorder::setMicrophoneVolume(const qreal volume)
         m_microphoneVolume = volume;
         m_audioRecorder->setVolume(m_microphoneVolume / 100.0);
         emit microphoneVolumeChanged(volume);
+    }
+}
+
+void AudioRecorder::setAudioInput(const QString &name)
+{
+    QString _input = name;
+    if (name != m_audioInput) {
+        m_audioInput = name;
     }
 }
 
@@ -201,6 +215,21 @@ void AudioRecorder::setBitrate(const int bitrate)
         m_bitrate = bitrate;
         emit bitrateChanged();
     }
+}
+
+QStringList AudioRecorder::audioInputDevices()
+{
+    return m_audioRecorder->audioInputs();
+}
+
+QString AudioRecorder::defaultAudioInput()
+{
+    return m_audioRecorder->defaultAudioInput();
+}
+
+QString AudioRecorder::audioInputDescription(const QString &name)
+{
+    return m_audioRecorder->audioInputDescription(name);
 }
 
 QStringList AudioRecorder::supportedAudioCodecs()

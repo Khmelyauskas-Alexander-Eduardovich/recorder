@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-01-13 10:58+0000\n"
+"POT-Creation-Date: 2021-01-13 19:31+0000\n"
 "PO-Revision-Date: 2020-07-11 18:10+0200\n"
 "Last-Translator: Heimen Stoffels <vistausss@outlook.com>\n"
 "Language-Team: \n"
@@ -19,51 +19,51 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. TRANSLATORS: This is a quality option in Record Quality.
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/Main.qml:100
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/Main.qml:104
 msgid "Very Low Quality"
 msgstr "Erg lage kwaliteit"
 
 #. TRANSLATORS: This is a quality option in Record Quality.
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/Main.qml:102
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/Main.qml:106
 msgid "Low Quality"
 msgstr "Lage kwaliteit"
 
 #. TRANSLATORS: This is a quality option in Record Quality.
 #. TRANSLATORS: This is an option in Encoding Mode. It means set audio quality using defaults options.
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/Main.qml:104
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/Main.qml:115
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/Main.qml:123
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/Main.qml:191
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/Main.qml:211
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/Main.qml:108
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/Main.qml:119
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/Main.qml:127
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/Main.qml:200
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/Main.qml:220
 #, qt-format
 msgid "%1 (default)"
 msgstr "%1 (standaard)"
 
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/Main.qml:104
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/Main.qml:108
 msgid "Normal Quality"
 msgstr "Normale kwaliteit"
 
 #. TRANSLATORS: This is a quality option in Record Quality.
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/Main.qml:106
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/Main.qml:110
 msgid "High Quality"
 msgstr "Hoge kwaliteit"
 
 #. TRANSLATORS: This is a quality option in Record Quality.
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/Main.qml:108
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/Main.qml:112
 msgid "Very High Quality"
 msgstr "Erg hoge kwaliteit"
 
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/Main.qml:115
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/Main.qml:119
 msgid "Constant Quality"
 msgstr "Constante kwaliteit"
 
 #. TRANSLATORS: This is an option in Encoding Mode. It means set audio quality using bitrate.
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/Main.qml:117
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/Main.qml:121
 msgid "Constant Bitrate"
 msgstr "Constante bitsnelheid"
 
 #. TRANSLATORS: This a reminder when some thing error.
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/Main.qml:174
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/Main.qml:183
 msgid " (Reset your settings will fix this.)"
 msgstr " (op te lossen door de standaardwaarden te herstellen)"
 
@@ -247,7 +247,7 @@ msgstr "Vorige"
 
 #. TRANSLATORS: Close export file page
 #: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:89
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:470
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:473
 msgid "Close"
 msgstr "Sluiten"
 
@@ -268,120 +268,120 @@ msgstr "Oké"
 msgid "Search..."
 msgstr "Zoeken..."
 
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:245
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:248
 msgid "No records"
 msgstr "Geen opnames"
 
 #. TRANSLATORS: An action name for delete a record file.
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:270
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:561
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:565
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:273
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:564
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:568
 msgid "Delete"
 msgstr "Verwijderen"
 
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:279
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:282
 #, qt-format
 msgid "%1 has been deleted."
 msgstr "%1 is verwijderd."
 
 #. TRANSLATORS: An action name for rename the file name.
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:290
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:293
 msgid "Rename"
 msgstr "Naam wijzigen"
 
 #. TRANSLATORS: An action name for the record file info.
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:304
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:307
 msgid "Info"
 msgstr "Informatie"
 
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:436
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:439
 msgid "Record Information"
 msgstr "Opname-informatie"
 
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:440
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:443
 #, qt-format
 msgid "<b>Name</b>: %1"
 msgstr "<b>Naam</b>: %1"
 
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:444
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:447
 #, qt-format
 msgid "<b>Type</b>: %1"
 msgstr "<b>Soort</b>: %1"
 
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:448
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:451
 #, qt-format
 msgid "<b>Size</b>: %1 (%2 B)"
 msgstr "<b>Grootte</b>: %1 (%2 B)"
 
 #. TRANSLATORS: The location where the record file is stored.
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:454
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:457
 #, qt-format
 msgid "<b>Location</b>: %1"
 msgstr "<b>Locatie</b>: %1"
 
 #. TRANSLATORS: The last accessed time.
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:460
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:463
 #, qt-format
 msgid "<b>Accessed</b>: %1"
 msgstr "<b>Geopend op</b>: %1"
 
 #. TRANSLATORS: The last modified time.
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:466
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:469
 #, qt-format
 msgid "<b>Modified</b>: %1"
 msgstr "<b>Aangepast op</b>: %1"
 
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:493
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:496
 msgid "Rename Record File"
 msgstr "Bestandsnaam wijzigen"
 
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:494
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:497
 msgid "Please enter a new file name."
 msgstr "Voer een nieuwe bestandsnaam in."
 
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:502
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:505
 msgid "Save"
 msgstr "Opslaan"
 
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:513
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:571
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:486
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:516
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:574
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:516
 msgid "Cancel"
 msgstr "Annuleren"
 
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:523
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:526
 msgid "Sort by"
 msgstr "Sorteren op"
 
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:533
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:536
 msgid "Unsorted (default)"
 msgstr "Ongesorteerd (standaard)"
 
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:534
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:537
 msgid "File name (ascending)"
 msgstr "Bestandsnaam (oplopend)"
 
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:535
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:538
 msgid "File name (descending)"
 msgstr "Bestandsnaam (aflopend)"
 
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:536
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:539
 msgid "Time modified (newest first)"
 msgstr "Aangepast (nieuwste eerst)"
 
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:537
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:540
 msgid "Time modified (oldest first)"
 msgstr "Aangepast (oudste eerst)"
 
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:538
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:541
 msgid "Size (ascending)"
 msgstr "Grootte (oplopend)"
 
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:539
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:542
 msgid "Size (descending)"
 msgstr "Grootte (aflopend)"
 
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:562
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:565
 #, qt-format
 msgid "Do you want delete %1 ?"
 msgstr "Wil je %1 verwijderen?"
@@ -394,8 +394,8 @@ msgstr "Geavanceerde instellingen"
 
 #: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:75
 #: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:121
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:475
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:480
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:505
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:510
 msgid "Reset"
 msgstr "Standaardwaarden"
 
@@ -425,33 +425,38 @@ msgstr "Microfoonvolume"
 msgid "Record Quality"
 msgstr "Opnamekwaliteit"
 
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:284
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:294
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:278
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:287
+msgid "Input Device"
+msgstr ""
+
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:314
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:324
 msgid "Audio Codec"
 msgstr "Audiocodec"
 
 #. TRANSLATORS: The count of sound channel
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:348
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:359
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:378
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:389
 msgid "Channels"
 msgstr "Aantal kanalen"
 
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:381
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:391
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:411
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:421
 msgid "Encoding Mode"
 msgstr "Encoderingsmodus"
 
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:413
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:423
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:443
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:453
 msgid "Encoding Quality"
 msgstr "Encoderingskwaliteit"
 
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:445
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:455
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:475
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:485
 msgid "Bitrate"
 msgstr "Bitsnelheid"
 
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:476
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:506
 msgid "Do you want reset settings?"
 msgstr "Weet je het zeker?"
 
