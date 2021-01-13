@@ -73,8 +73,8 @@ Page {
         trailingActionBar.delegate: HeaderButton {}
         StyleHints {
             foregroundColor: "#FFF"
-            backgroundColor: "#85D8CE"
-            dividerColor: "#85D8CE"
+            backgroundColor: backgroundColor1
+            dividerColor: backgroundColor1
         }
     }
 

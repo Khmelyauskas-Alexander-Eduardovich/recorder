@@ -27,7 +27,7 @@ AbstractButton {
 
     Rectangle {
         id: background
-        color: parent.pressed ? "#76C8C4" : "transparent"
+        color: parent.pressed ? buttonPressedColor : "transparent"
         anchors.fill: parent
     }
 

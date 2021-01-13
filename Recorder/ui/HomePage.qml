@@ -81,8 +81,8 @@ Page {
 
         StyleHints {
             foregroundColor: "#FFF"
-            backgroundColor: "#85D8CE"
-            dividerColor: "#85D8CE"
+            backgroundColor: backgroundColor1
+            dividerColor: backgroundColor1
         }
     }
 
@@ -246,7 +246,7 @@ Page {
             height: width
 
             radius: width / 2
-            color: recordMouseArea.pressed ? "#9976C8C4" : "#FF4997A5"
+            color: recordMouseArea.pressed ? "#9976C8C4" : bgColorWithAlpha
 
 
             Rectangle {

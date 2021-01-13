@@ -43,6 +43,12 @@ MainView {
 
     property string appVersion: "1.0.9"
 
+    // darker colors in relation to the current systen theme
+    property string backgroundColor1: theme.name == "Ubuntu.Components.Themes.SuruDark" ? "#112326" : "#85D8CE"
+    property string backgroundColor2: theme.name == "Ubuntu.Components.Themes.SuruDark" ? "#060f14" : "#085078"
+    property string bgColorWithAlpha: theme.name == "Ubuntu.Components.Themes.SuruDark" ? "#FF193438" : "#FF4997A5"
+    property string buttonPressedColor: theme.name == "Ubuntu.Components.Themes.SuruDark" ? "#183438" : "#76C8C4"
+
     width: units.gu(50)
     height: units.gu(75)
 
@@ -233,8 +239,8 @@ MainView {
         start: Qt.point(0, 0)
         end: Qt.point(parent.width, parent.height)
         gradient: Gradient {
-            GradientStop { position: 0.0; color: "#85D8CE" }
-            GradientStop { position: 1.0; color: "#085078" }
+            GradientStop { position: 0.0; color: backgroundColor1 }
+            GradientStop { position: 1.0; color: backgroundColor2 }
         }
     }
 
