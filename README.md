@@ -2,7 +2,7 @@
 [![GitHub release](https://img.shields.io/github/release/luksus42/recorder.svg?maxAge=2592000)](https://github.com/luksus42/recorder/releases/latest)
 [![license](https://img.shields.io/github/license/luksus42/recorder.svg)](https://github.com/luksus42/recorder/blob/master/LICENSE)
 
-[![Ubuntu Store](https://img.shields.io/badge/UbuntuStore-Recorder-E95420.svg)](https://uappexplorer.com/app/audio-recorder.ubuntu-dawndiy)
+[![Open Store](https://img.shields.io/badge/UbuntuStore-Recorder-E95420.svg)](https://open-store.io/app/audio-recorder.luksus)
 
 ## forked and detached from https://github.com/dawndiy/recorder
 
