@@ -301,7 +301,7 @@ Page {
                 }
             }
 
-            ListItem {
+            /*ListItem {
                 visible: settingsPage.state === "advanced"
                 height: visible ? containerLayout.height + (divider.visible ? divider.height : 0) : 0
                 highlightColor: "#246588"
@@ -333,7 +333,7 @@ Page {
                     ProgressionSlot { color: "white" }
 
                 }
-            }
+            }*/
 
             ListItem {
                 visible: settingsPage.state === "advanced" && settings.audioCodec !== "audio/vorbis" && settings.audioCodec !== "default"

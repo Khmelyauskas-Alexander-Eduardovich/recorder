@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: recorder\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-14 22:51+0000\n"
+"POT-Creation-Date: 2021-01-13 10:58+0000\n"
 "PO-Revision-Date: 2018-03-13 20:20+0100\n"
 "Last-Translator: advocatux <advocatux@airpost.net>\n"
 "Language-Team: UBports Spanish Team\n"
@@ -81,7 +81,7 @@ msgstr "Asistencia"
 #. TRANSLATORS: Recorder is the name of this App.
 #: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/AboutPage.qml:132
 #: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/HomePage.qml:31
-#: /home/luke/Code/UbuntuTouch/recorder/.build/aarch64-linux-gnu/recorder/Recorder/Recorder.desktop.h:1
+#: /home/luke/Code/UbuntuTouch/recorder/.build/x86_64-linux-gnu/recorder/Recorder/Recorder.desktop.h:1
 msgid "Recorder"
 msgstr "Grabadora"
 
@@ -248,7 +248,7 @@ msgstr "Atrás"
 
 #. TRANSLATORS: Close export file page
 #: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:89
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:463
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:470
 msgid "Close"
 msgstr "Cerrar"
 
@@ -269,120 +269,120 @@ msgstr "Aceptar"
 msgid "Search..."
 msgstr "Buscar…"
 
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:238
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:245
 msgid "No records"
 msgstr "No hay grabaciones"
 
 #. TRANSLATORS: An action name for delete a record file.
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:263
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:554
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:558
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:270
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:561
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:565
 msgid "Delete"
 msgstr "Eliminar"
 
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:272
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:279
 #, qt-format
 msgid "%1 has been deleted."
 msgstr "Se ha eliminado %1."
 
 #. TRANSLATORS: An action name for rename the file name.
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:283
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:290
 msgid "Rename"
 msgstr "Renombrar"
 
 #. TRANSLATORS: An action name for the record file info.
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:297
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:304
 msgid "Info"
 msgstr "Información"
 
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:429
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:436
 msgid "Record Information"
 msgstr "Información de la grabación"
 
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:433
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:440
 #, qt-format
 msgid "<b>Name</b>: %1"
 msgstr "<b>Nombre</b>: %1"
 
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:437
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:444
 #, qt-format
 msgid "<b>Type</b>: %1"
 msgstr "<b>Tipo</b>: %1"
 
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:441
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:448
 #, qt-format
 msgid "<b>Size</b>: %1 (%2 B)"
 msgstr "<b>Tamaño</b>: %1 (%2 B)"
 
 #. TRANSLATORS: The location where the record file is stored.
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:447
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:454
 #, qt-format
 msgid "<b>Location</b>: %1"
 msgstr "<b>Ubicación</b>: %1"
 
 #. TRANSLATORS: The last accessed time.
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:453
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:460
 #, qt-format
 msgid "<b>Accessed</b>: %1"
 msgstr "<b>Último acceso</b>: %1"
 
 #. TRANSLATORS: The last modified time.
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:459
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:466
 #, qt-format
 msgid "<b>Modified</b>: %1"
 msgstr "<b>Última modificación</b>: %1"
 
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:486
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:493
 msgid "Rename Record File"
 msgstr "Renombrar el archivo de la grabación"
 
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:487
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:494
 msgid "Please enter a new file name."
 msgstr "Escriba un nombre de archivo nuevo."
 
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:495
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:502
 msgid "Save"
 msgstr "Guardar"
 
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:506
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:564
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:513
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:571
 #: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:486
 msgid "Cancel"
 msgstr "Cancelar"
 
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:516
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:523
 msgid "Sort by"
 msgstr "Ordenar por"
 
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:526
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:533
 msgid "Unsorted (default)"
 msgstr "Sin ordenar (predeterminado)"
 
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:527
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:534
 msgid "File name (ascending)"
 msgstr "Nombre de archivo (ascendente)"
 
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:528
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:535
 msgid "File name (descending)"
 msgstr "Nombre de archivo (descendente)"
 
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:529
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:536
 msgid "Time modified (newest first)"
 msgstr "Hora de modificación (más recientes primero)"
 
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:530
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:537
 msgid "Time modified (oldest first)"
 msgstr "Hora de modificación (más antiguos primero)"
 
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:531
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:538
 msgid "Size (ascending)"
 msgstr "Tamaño (ascendente)"
 
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:532
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:539
 msgid "Size (descending)"
 msgstr "Tamaño (descendente)"
 
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:555
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:562
 #, qt-format
 msgid "Do you want delete %1 ?"
 msgstr "¿Quiere eliminar %1?"
@@ -431,16 +431,6 @@ msgstr "Calidad de grabación"
 msgid "Audio Codec"
 msgstr "Códec de audio"
 
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:318
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:328
-#, fuzzy
-msgid "File Container"
-msgstr "Contenedor de archivo"
-
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:330
-msgid "Could not be resolved!"
-msgstr ""
-
 #. TRANSLATORS: The count of sound channel
 #: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:348
 #: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:359
@@ -469,3 +459,7 @@ msgstr "¿Quiere restablecer la configuración?"
 #: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SharePage.qml:35
 msgid "Share with"
 msgstr ""
+
+#, fuzzy
+#~ msgid "File Container"
+#~ msgstr "Contenedor de archivo"

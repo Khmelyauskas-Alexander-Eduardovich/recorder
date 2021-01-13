@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: recorder\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-14 22:51+0000\n"
+"POT-Creation-Date: 2021-01-13 10:58+0000\n"
 "PO-Revision-Date: 2016-12-25 22:46+0000\n"
 "Last-Translator: Cheng Lu <chenglu1990@gmail.com>\n"
 "Language-Team: Chinese (China) <i18n-zh@googlegroups.com>\n"
@@ -84,7 +84,7 @@ msgstr "支持"
 #. TRANSLATORS: Recorder is the name of this App.
 #: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/AboutPage.qml:132
 #: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/HomePage.qml:31
-#: /home/luke/Code/UbuntuTouch/recorder/.build/aarch64-linux-gnu/recorder/Recorder/Recorder.desktop.h:1
+#: /home/luke/Code/UbuntuTouch/recorder/.build/x86_64-linux-gnu/recorder/Recorder/Recorder.desktop.h:1
 msgid "Recorder"
 msgstr "錄音機"
 
@@ -251,7 +251,7 @@ msgstr "返回"
 
 #. TRANSLATORS: Close export file page
 #: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:89
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:463
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:470
 msgid "Close"
 msgstr "關閉"
 
@@ -272,120 +272,120 @@ msgstr "確定"
 msgid "Search..."
 msgstr "搜索..."
 
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:238
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:245
 msgid "No records"
 msgstr "無錄音"
 
 #. TRANSLATORS: An action name for delete a record file.
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:263
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:554
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:558
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:270
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:561
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:565
 msgid "Delete"
 msgstr "刪除"
 
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:272
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:279
 #, qt-format
 msgid "%1 has been deleted."
 msgstr "%1 已被刪除。"
 
 #. TRANSLATORS: An action name for rename the file name.
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:283
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:290
 msgid "Rename"
 msgstr "重命名"
 
 #. TRANSLATORS: An action name for the record file info.
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:297
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:304
 msgid "Info"
 msgstr "信息"
 
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:429
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:436
 msgid "Record Information"
 msgstr "錄音信息"
 
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:433
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:440
 #, qt-format
 msgid "<b>Name</b>: %1"
 msgstr "<b>名稱</b>: %1"
 
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:437
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:444
 #, qt-format
 msgid "<b>Type</b>: %1"
 msgstr "<b>類型</b>: %1"
 
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:441
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:448
 #, qt-format
 msgid "<b>Size</b>: %1 (%2 B)"
 msgstr "<b>大小</b>: %1 (%2 字節)"
 
 #. TRANSLATORS: The location where the record file is stored.
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:447
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:454
 #, qt-format
 msgid "<b>Location</b>: %1"
 msgstr "<b>位置</b>: %1"
 
 #. TRANSLATORS: The last accessed time.
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:453
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:460
 #, qt-format
 msgid "<b>Accessed</b>: %1"
 msgstr "<b>訪問</b>: %1"
 
 #. TRANSLATORS: The last modified time.
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:459
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:466
 #, qt-format
 msgid "<b>Modified</b>: %1"
 msgstr "<b>修改</b>: %1"
 
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:486
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:493
 msgid "Rename Record File"
 msgstr "重命名錄音文件"
 
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:487
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:494
 msgid "Please enter a new file name."
 msgstr "請輸入一個新的文件名。"
 
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:495
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:502
 msgid "Save"
 msgstr "保存"
 
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:506
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:564
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:513
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:571
 #: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:486
 msgid "Cancel"
 msgstr "取消"
 
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:516
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:523
 msgid "Sort by"
 msgstr "排序"
 
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:526
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:533
 msgid "Unsorted (default)"
 msgstr "不排序（默認）"
 
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:527
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:534
 msgid "File name (ascending)"
 msgstr "文件名（升序）"
 
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:528
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:535
 msgid "File name (descending)"
 msgstr "文件名（降序）"
 
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:529
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:536
 msgid "Time modified (newest first)"
 msgstr "修改時間（最新在前）"
 
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:530
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:537
 msgid "Time modified (oldest first)"
 msgstr "修改時間（最舊在前）"
 
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:531
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:538
 msgid "Size (ascending)"
 msgstr "大小（升序）"
 
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:532
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:539
 msgid "Size (descending)"
 msgstr "大小（降序）"
 
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:555
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:562
 #, qt-format
 msgid "Do you want delete %1 ?"
 msgstr "你確定要刪除 %1 ？"
@@ -434,16 +434,6 @@ msgstr "錄音品質"
 msgid "Audio Codec"
 msgstr "音頻編碼"
 
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:318
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:328
-#, fuzzy
-msgid "File Container"
-msgstr "文件容器"
-
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:330
-msgid "Could not be resolved!"
-msgstr ""
-
 #. TRANSLATORS: The count of sound channel
 #: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:348
 #: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:359
@@ -472,3 +462,7 @@ msgstr "你確定要重置設置？"
 #: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SharePage.qml:35
 msgid "Share with"
 msgstr ""
+
+#, fuzzy
+#~ msgid "File Container"
+#~ msgstr "文件容器"

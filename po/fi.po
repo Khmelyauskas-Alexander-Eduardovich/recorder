@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: recorder\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-14 22:51+0000\n"
+"POT-Creation-Date: 2021-01-13 10:58+0000\n"
 "PO-Revision-Date: 2017-01-10 09:50+0000\n"
 "Last-Translator: Jiri Grönroos <Unknown>\n"
 "Language-Team: Finnish <fi@li.org>\n"
@@ -83,7 +83,7 @@ msgstr "Tuki"
 #. TRANSLATORS: Recorder is the name of this App.
 #: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/AboutPage.qml:132
 #: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/HomePage.qml:31
-#: /home/luke/Code/UbuntuTouch/recorder/.build/aarch64-linux-gnu/recorder/Recorder/Recorder.desktop.h:1
+#: /home/luke/Code/UbuntuTouch/recorder/.build/x86_64-linux-gnu/recorder/Recorder/Recorder.desktop.h:1
 msgid "Recorder"
 msgstr "Äänitin"
 
@@ -250,7 +250,7 @@ msgstr "Takaisin"
 
 #. TRANSLATORS: Close export file page
 #: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:89
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:463
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:470
 msgid "Close"
 msgstr "Sulje"
 
@@ -271,120 +271,120 @@ msgstr "OK"
 msgid "Search..."
 msgstr "Etsi..."
 
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:238
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:245
 msgid "No records"
 msgstr "Ei äänitteitä"
 
 #. TRANSLATORS: An action name for delete a record file.
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:263
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:554
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:558
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:270
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:561
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:565
 msgid "Delete"
 msgstr "Poista"
 
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:272
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:279
 #, qt-format
 msgid "%1 has been deleted."
 msgstr "%1 on poistettu."
 
 #. TRANSLATORS: An action name for rename the file name.
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:283
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:290
 msgid "Rename"
 msgstr "Nimeä uudelleen"
 
 #. TRANSLATORS: An action name for the record file info.
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:297
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:304
 msgid "Info"
 msgstr "Tiedot"
 
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:429
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:436
 msgid "Record Information"
 msgstr "Äänitteen tiedot"
 
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:433
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:440
 #, qt-format
 msgid "<b>Name</b>: %1"
 msgstr "<b>Nimi</b>: %1"
 
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:437
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:444
 #, qt-format
 msgid "<b>Type</b>: %1"
 msgstr "<b>Tyyppi</b>: %1"
 
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:441
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:448
 #, qt-format
 msgid "<b>Size</b>: %1 (%2 B)"
 msgstr "<b>Koko</b>: %1 (%2 t)"
 
 #. TRANSLATORS: The location where the record file is stored.
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:447
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:454
 #, qt-format
 msgid "<b>Location</b>: %1"
 msgstr "<b>Sijainti</b>: %1"
 
 #. TRANSLATORS: The last accessed time.
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:453
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:460
 #, qt-format
 msgid "<b>Accessed</b>: %1"
 msgstr "<b>Käytetty</b>: %1"
 
 #. TRANSLATORS: The last modified time.
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:459
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:466
 #, qt-format
 msgid "<b>Modified</b>: %1"
 msgstr "<b>Muokattu</b>: %1"
 
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:486
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:493
 msgid "Rename Record File"
 msgstr "Nimeä uudelleen äänite"
 
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:487
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:494
 msgid "Please enter a new file name."
 msgstr "Anna uusi tiedostonimi."
 
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:495
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:502
 msgid "Save"
 msgstr "Tallenna"
 
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:506
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:564
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:513
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:571
 #: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:486
 msgid "Cancel"
 msgstr "Peru"
 
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:516
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:523
 msgid "Sort by"
 msgstr "Järjestä"
 
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:526
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:533
 msgid "Unsorted (default)"
 msgstr "Järjestämätön (oletus)"
 
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:527
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:534
 msgid "File name (ascending)"
 msgstr "Tiedostonimi (nouseva)"
 
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:528
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:535
 msgid "File name (descending)"
 msgstr "Tiedostonimi (laskeva)"
 
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:529
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:536
 msgid "Time modified (newest first)"
 msgstr "Muokkausaika (uusin ensin)"
 
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:530
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:537
 msgid "Time modified (oldest first)"
 msgstr "Muokkausaika (vanhin ensin)"
 
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:531
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:538
 msgid "Size (ascending)"
 msgstr "Koko (nouseva)"
 
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:532
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:539
 msgid "Size (descending)"
 msgstr "Koko (laskeva)"
 
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:555
+#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:562
 #, qt-format
 msgid "Do you want delete %1 ?"
 msgstr "Haluatko poistaa äänitteen %1 ?"
@@ -433,16 +433,6 @@ msgstr "Äänitteen laatu"
 msgid "Audio Codec"
 msgstr "Äänikoodekki"
 
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:318
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:328
-#, fuzzy
-msgid "File Container"
-msgstr "Tiedostosäilö"
-
-#: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:330
-msgid "Could not be resolved!"
-msgstr ""
-
 #. TRANSLATORS: The count of sound channel
 #: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:348
 #: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:359
@@ -471,3 +461,7 @@ msgstr "Haluatko palauttaa oletusasetukset?"
 #: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SharePage.qml:35
 msgid "Share with"
 msgstr ""
+
+#, fuzzy
+#~ msgid "File Container"
+#~ msgstr "Tiedostosäilö"
