@@ -10,7 +10,7 @@
             "content-hub": "Recorder/Recorder-content.json"
         }
     },
-    "version": "1.0.10",
+    "version": "1.1.0",
     "maintainer": "luksus42 <luksus42@posteo.de>",
     "framework": "ubuntu-sdk-16.04"
 }

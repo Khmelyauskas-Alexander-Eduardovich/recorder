@@ -41,7 +41,7 @@ MainView {
     // Note! applicationName needs to match the "name" field of the click manifest
     applicationName: "audio-recorder.luksus"
 
-    property string appVersion: "1.0.10"
+    property string appVersion: "1.1.0"
 
     // darker colors in relation to the current systen theme
     property string backgroundColor1: theme.name == "Ubuntu.Components.Themes.SuruDark" ? "#112326" : "#85D8CE"
