@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: recorder\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-01-13 19:31+0000\n"
-"PO-Revision-Date: 2020-03-06 14:20+0100\n"
+"PO-Revision-Date: 2021-01-21 21:07+0100\n"
 "Last-Translator: Anne017 <anneonyme017@openmailbox.org>\n"
 "Language-Team: French <fr@li.org>\n"
 "Language: fr\n"
@@ -134,9 +134,8 @@ msgid "Icon"
 msgstr "Icône"
 
 #: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/AboutPage.qml:223
-#, fuzzy
 msgid "Translators"
-msgstr "Traductions"
+msgstr "Traducteurs/trices"
 
 #: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/AboutPage.qml:226
 #: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/AboutPage.qml:227
@@ -428,7 +427,7 @@ msgstr "Qualité de l'enregistrement"
 #: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:278
 #: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:287
 msgid "Input Device"
-msgstr ""
+msgstr "Périphérique d'entrée"
 
 #: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:314
 #: /home/luke/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:324
