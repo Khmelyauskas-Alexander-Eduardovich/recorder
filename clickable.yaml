@@ -1,0 +1,4 @@
+build_dir: ${ROOT}/.build/${ARCH_TRIPLET}/recorder
+builder: qmake
+clickable_minimum_required: 7
+framework: "20.04"
