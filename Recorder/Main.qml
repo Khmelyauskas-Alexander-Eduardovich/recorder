@@ -22,8 +22,8 @@ import QtSystemInfo 5.0
 import QtMultimedia 5.5
 import QtGraphicalEffects 1.0
 import Qt.labs.settings 1.0
-import Ubuntu.Components 1.3
-import Ubuntu.Content 1.3
+import Lomiri.Components 1.3
+import Lomiri.Content 1.3
 // import Ubuntu.PerformanceMetrics 1.0
 import AudioRecorder 1.0
 
@@ -41,13 +41,13 @@ MainView {
     // Note! applicationName needs to match the "name" field of the click manifest
     applicationName: "audio-recorder.luksus"
 
-    property string appVersion: "1.1.0"
+    property string appVersion: "1.1.1"
 
     // darker colors in relation to the current systen theme
-    property string backgroundColor1: theme.name == "Ubuntu.Components.Themes.SuruDark" ? "#112326" : "#85D8CE"
-    property string backgroundColor2: theme.name == "Ubuntu.Components.Themes.SuruDark" ? "#060f14" : "#085078"
-    property string bgColorWithAlpha: theme.name == "Ubuntu.Components.Themes.SuruDark" ? "#FF193438" : "#FF4997A5"
-    property string buttonPressedColor: theme.name == "Ubuntu.Components.Themes.SuruDark" ? "#183438" : "#76C8C4"
+    property string backgroundColor1: theme.name == "Lomiri.Components.Themes.SuruDark" ? "#112326" : "#85D8CE"
+    property string backgroundColor2: theme.name == "Lomiri.Components.Themes.SuruDark" ? "#060f14" : "#085078"
+    property string bgColorWithAlpha: theme.name == "Lomiri.Components.Themes.SuruDark" ? "#FF193438" : "#FF4997A5"
+    property string buttonPressedColor: theme.name == "Lomiri.Components.Themes.SuruDark" ? "#183438" : "#76C8C4"
 
     width: units.gu(50)
     height: units.gu(75)
