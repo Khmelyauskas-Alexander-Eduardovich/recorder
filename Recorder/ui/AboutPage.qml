@@ -220,7 +220,19 @@ Page {
                     creditsModel.append({ category: i18n.tr("Icon"), name: "DawnDIY", link: "https://github.com/dawndiy" })
 
                     //Translators
-                    creditsModel.append({ category: i18n.tr("Translators"), name: "Anne017", link: "https://github.com/Anne017" })
+                    creditsModel.append({ category: i18n.tr("Translators"), name: "Joan CiberSheep" })
+                    creditsModel.append({ category: i18n.tr("Translators"), name: "Daniel Frost" })
+                    creditsModel.append({ category: i18n.tr("Translators"), name: "Sof" })
+                    creditsModel.append({ category: i18n.tr("Translators"), name: "advocatux" })
+                    creditsModel.append({ category: i18n.tr("Translators"), name: "Jiri Grönroos" })
+                    creditsModel.append({ category: i18n.tr("Translators"), name: "Anne017" })
+                    creditsModel.append({ category: i18n.tr("Translators"), name: "Richard Somlói" })
+                    creditsModel.append({ category: i18n.tr("Translators"), name: "Gabriele" })
+                    creditsModel.append({ category: i18n.tr("Translators"), name: "Heimen Stoffels" })
+                    creditsModel.append({ category: i18n.tr("Translators"), name: "Bartosz Kosiorek" })
+                    creditsModel.append({ category: i18n.tr("Translators"), name: "Ivo Xavier" })
+                    creditsModel.append({ category: i18n.tr("Translators"), name: "JasonWalt Bab@ \"Knyaz\"" })
+                    creditsModel.append({ category: i18n.tr("Translators"), name: "Cheng Lu" })
 
                     // Developers
                     creditsModel.append({ category: i18n.tr("Developers"), name: "DawnDIY", link: "https://github.com/dawndiy" })

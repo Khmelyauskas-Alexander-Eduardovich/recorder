@@ -1,33 +1,30 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# Cheng Lu <dawndiy.dev@gmail.com>, 2016.
+# Spanish translation for recorder
+# Copyright (c) 2017 Rosetta Contributors and Canonical Ltd 2017
+# This file is distributed under the same license as the recorder package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: recorder\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-06-20 21:56+0000\n"
-"PO-Revision-Date: 2016-12-25 22:46+0000\n"
-"Last-Translator: Cheng Lu <chenglu1990@gmail.com>\n"
-"Language-Team: Chinese (China) <i18n-zh@googlegroups.com>\n"
-"Language: \n"
+"PO-Revision-Date: 2025-06-19 20:20+0100\n"
+"Last-Translator: JasonWalt Bab@ \"Knyaz\" <mardimusa8@gmail.com>\n"
+"Language-Team: JasonWalt Bab@'s Translate Team БаZa\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2016-12-26 05:02+0000\n"
-"X-Generator: Launchpad (build 18298)\n"
 
 #. TRANSLATORS: This is a quality option in Record Quality.
 #: /run/media/luke/Daten/Code/UbuntuTouch/recorder/Recorder/Main.qml:107
 msgid "Very Low Quality"
-msgstr "较低品质"
+msgstr "Очень низкое качество"
 
 #. TRANSLATORS: This is a quality option in Record Quality.
 #: /run/media/luke/Daten/Code/UbuntuTouch/recorder/Recorder/Main.qml:109
 msgid "Low Quality"
-msgstr "低品质"
+msgstr "Низкое качество"
 
 #. TRANSLATORS: This is a quality option in Record Quality.
 #. TRANSLATORS: This is an option in Encoding Mode. It means set audio quality using defaults options.
@@ -38,35 +35,35 @@ msgstr "低品质"
 #: /run/media/luke/Daten/Code/UbuntuTouch/recorder/Recorder/Main.qml:223
 #, qt-format
 msgid "%1 (default)"
-msgstr "%1 (默认)"
+msgstr "%1 (по умолчанию)"
 
 #: /run/media/luke/Daten/Code/UbuntuTouch/recorder/Recorder/Main.qml:111
 msgid "Normal Quality"
-msgstr "正常品质"
+msgstr "Нормальное качество"
 
 #. TRANSLATORS: This is a quality option in Record Quality.
 #: /run/media/luke/Daten/Code/UbuntuTouch/recorder/Recorder/Main.qml:113
 msgid "High Quality"
-msgstr "高品质"
+msgstr "Высокое качество"
 
 #. TRANSLATORS: This is a quality option in Record Quality.
 #: /run/media/luke/Daten/Code/UbuntuTouch/recorder/Recorder/Main.qml:115
 msgid "Very High Quality"
-msgstr "超高品质"
+msgstr "Очень высокое качество"
 
 #: /run/media/luke/Daten/Code/UbuntuTouch/recorder/Recorder/Main.qml:122
 msgid "Constant Quality"
-msgstr "固定品质"
+msgstr "Постоянное качество"
 
 #. TRANSLATORS: This is an option in Encoding Mode. It means set audio quality using bitrate.
 #: /run/media/luke/Daten/Code/UbuntuTouch/recorder/Recorder/Main.qml:124
 msgid "Constant Bitrate"
-msgstr "固定比特率"
+msgstr "Постоянный битрейт"
 
 #. TRANSLATORS: This a reminder when some thing error.
 #: /run/media/luke/Daten/Code/UbuntuTouch/recorder/Recorder/Main.qml:186
 msgid " (Reset your settings will fix this.)"
-msgstr " (重置你的设置来修复这个问题。)"
+msgstr " (Сброс настроек исправит эту проблему.)"
 
 #. TRANSLATORS: Title of About page.
 #. TRANSLATORS: A section name of top Sections.
@@ -74,30 +71,30 @@ msgstr " (重置你的设置来修复这个问题。)"
 #: /run/media/luke/Daten/Code/UbuntuTouch/recorder/Recorder/ui/AboutPage.qml:51
 #: /run/media/luke/Daten/Code/UbuntuTouch/recorder/Recorder/ui/HomePage.qml:60
 msgid "About"
-msgstr "关于"
+msgstr "Об этом"
 
 #. TRANSLATORS: A section name of top Sections.
 #: /run/media/luke/Daten/Code/UbuntuTouch/recorder/Recorder/ui/AboutPage.qml:53
 msgid "Support"
-msgstr "支持"
+msgstr "Поддержка"
 
 #. TRANSLATORS: Recorder is the name of this App.
 #: /run/media/luke/Daten/Code/UbuntuTouch/recorder/Recorder/ui/AboutPage.qml:132
 #: /run/media/luke/Daten/Code/UbuntuTouch/recorder/Recorder/ui/HomePage.qml:31
 #: /run/media/luke/Daten/Code/UbuntuTouch/recorder/.build/aarch64-linux-gnu/recorder/Recorder/Recorder.desktop.h:1
 msgid "Recorder"
-msgstr "录音机"
+msgstr "Диктофон"
 
 #. TRANSLATORS: Recorder version number e.g Version 1.0.0
 #: /run/media/luke/Daten/Code/UbuntuTouch/recorder/Recorder/ui/AboutPage.qml:139
 #, qt-format
 msgid "Version %1"
-msgstr "版本 %1"
+msgstr "Версия %1"
 
 #. TRANSLATORS: The summary of this App.
 #: /run/media/luke/Daten/Code/UbuntuTouch/recorder/Recorder/ui/AboutPage.qml:149
 msgid "Audio Recorder for Ubuntu."
-msgstr "Ubuntu 音频录音机。"
+msgstr "Диктофон для Ubuntu."
 
 #. TRANSLATORS: release license
 #: /run/media/luke/Daten/Code/UbuntuTouch/recorder/Recorder/ui/AboutPage.qml:174
@@ -105,35 +102,35 @@ msgid ""
 "Released under the terms of the <a href=\"https://github.com/dawndiy/"
 "recorder/blob/master/LICENSE\">GNU GPL v3</a>"
 msgstr ""
-"使用 <a href=\"https://github.com/dawndiy/recorder/blob/master/LICENSE\">GNU "
-"GPL v3</a> 条款发布"
+"Выпущено на условиях <a href=\"https://github.com/dawndiy/recorder/blob/"
+"master/LICENSE\">GNU GPL v3</a>"
 
 #: /run/media/luke/Daten/Code/UbuntuTouch/recorder/Recorder/ui/AboutPage.qml:184
 #: /run/media/luke/Daten/Code/UbuntuTouch/recorder/Recorder/ui/DonatePage.qml:30
 msgid "Donate"
-msgstr "捐赠"
+msgstr "Пожертвовать"
 
 #: /run/media/luke/Daten/Code/UbuntuTouch/recorder/Recorder/ui/AboutPage.qml:215
 #: /run/media/luke/Daten/Code/UbuntuTouch/recorder/Recorder/ui/AboutPage.qml:216
 #: /run/media/luke/Daten/Code/UbuntuTouch/recorder/Recorder/ui/AboutPage.qml:217
 msgid "Resources"
-msgstr "资源"
+msgstr "Ресурсы"
 
 #: /run/media/luke/Daten/Code/UbuntuTouch/recorder/Recorder/ui/AboutPage.qml:215
 msgid "Bugs"
-msgstr "Bugs"
+msgstr "Неполадки"
 
 #: /run/media/luke/Daten/Code/UbuntuTouch/recorder/Recorder/ui/AboutPage.qml:216
 msgid "Contact"
-msgstr "联系"
+msgstr "Связь"
 
 #: /run/media/luke/Daten/Code/UbuntuTouch/recorder/Recorder/ui/AboutPage.qml:217
 msgid "Translations"
-msgstr "翻译"
+msgstr "Переводы"
 
 #: /run/media/luke/Daten/Code/UbuntuTouch/recorder/Recorder/ui/AboutPage.qml:220
 msgid "Icon"
-msgstr "图标"
+msgstr "Иконка"
 
 #: /run/media/luke/Daten/Code/UbuntuTouch/recorder/Recorder/ui/AboutPage.qml:223
 #: /run/media/luke/Daten/Code/UbuntuTouch/recorder/Recorder/ui/AboutPage.qml:224
@@ -150,60 +147,60 @@ msgstr "图标"
 #: /run/media/luke/Daten/Code/UbuntuTouch/recorder/Recorder/ui/AboutPage.qml:235
 #, fuzzy
 msgid "Translators"
-msgstr "翻译"
+msgstr "Переводчики"
 
 #: /run/media/luke/Daten/Code/UbuntuTouch/recorder/Recorder/ui/AboutPage.qml:238
 #: /run/media/luke/Daten/Code/UbuntuTouch/recorder/Recorder/ui/AboutPage.qml:239
 #: /run/media/luke/Daten/Code/UbuntuTouch/recorder/Recorder/ui/AboutPage.qml:240
 msgid "Developers"
-msgstr "开发者"
+msgstr "Разработчики"
 
 #: /run/media/luke/Daten/Code/UbuntuTouch/recorder/Recorder/ui/AboutPage.qml:242
 #, fuzzy
 msgid "Maintainer"
-msgstr "文件容器"
+msgstr "Сопроводитель"
 
 #: /run/media/luke/Daten/Code/UbuntuTouch/recorder/Recorder/ui/DonatePage.qml:173
 msgid "Please donate if you like this App. :)"
-msgstr "如果你喜欢这个应用请捐赠。:)"
+msgstr "Задонатьте пожалуйста если вам понравилось приложение :)"
 
 #. TRANSLATORS: This is a tab action name. This action button will enter a page show recorded files.
 #. TRANSLATORS: Title of record list page
 #: /run/media/luke/Daten/Code/UbuntuTouch/recorder/Recorder/ui/HomePage.qml:41
 #: /run/media/luke/Daten/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:68
 msgid "Records"
-msgstr "录音"
+msgstr "Записи"
 
 #. TRANSLATORS: The title of settings page
 #: /run/media/luke/Daten/Code/UbuntuTouch/recorder/Recorder/ui/HomePage.qml:49
 #: /run/media/luke/Daten/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:53
 msgid "Settings"
-msgstr "设置"
+msgstr "Настройки"
 
 #: /run/media/luke/Daten/Code/UbuntuTouch/recorder/Recorder/ui/HomePage.qml:68
 msgid "Share"
-msgstr ""
+msgstr "Поделиться"
 
 #: /run/media/luke/Daten/Code/UbuntuTouch/recorder/Recorder/ui/HomePage.qml:75
 msgid "Please load or create a recording first."
-msgstr ""
+msgstr "Пожалуйста загрузите или сделайте запись сначала"
 
 #: /run/media/luke/Daten/Code/UbuntuTouch/recorder/Recorder/ui/HomePage.qml:343
 #: /run/media/luke/Daten/Code/UbuntuTouch/recorder/Recorder/ui/HomePage.qml:398
 #, qt-format
 msgid "Record is saved in %1"
-msgstr "录音已保存在 %1"
+msgstr "Запись сохранена в %1"
 
 #. TRANSLATORS: The text of the button to skip the introduction page.
 #: /run/media/luke/Daten/Code/UbuntuTouch/recorder/Recorder/ui/IntroPage.qml:40
 msgid "Skip"
-msgstr "跳过"
+msgstr "Пропустить"
 
 #. TRANSLATORS: The title of introduction page
 #: /run/media/luke/Daten/Code/UbuntuTouch/recorder/Recorder/ui/IntroPage.qml:54
 #, fuzzy
 msgid "Simple recording"
-msgstr "简单的录音"
+msgstr "Простая запись"
 
 #: /run/media/luke/Daten/Code/UbuntuTouch/recorder/Recorder/ui/IntroPage.qml:55
 msgid ""
@@ -211,27 +208,27 @@ msgid ""
 "2. Play button to play recording.\n"
 "3. Stop button to stop recording or play."
 msgstr ""
-"1. 录音按钮来开始录音。\n"
-"2. 播放按钮来播放录音。\n"
-"3. 停止按钮来停止录音或播放。"
+"1. Кнопка записи для начала записи.\n"
+"2. Кнопка воспроизведения для воспроизведения записи.\n"
+"3. Кнопка остановки для остановки записи или воспроизведения"
 
 #. TRANSLATORS: The title of introduction page
 #: /run/media/luke/Daten/Code/UbuntuTouch/recorder/Recorder/ui/IntroPage.qml:59
 msgid "Rich set of options"
-msgstr "丰富的设置选项"
+msgstr "Богатый набор опций"
 
 #: /run/media/luke/Daten/Code/UbuntuTouch/recorder/Recorder/ui/IntroPage.qml:60
 msgid ""
 "1. Reset action to restore the default settings.\n"
 "2. Expand more advanced settings."
 msgstr ""
-"1. 重置操作来恢复默认设置。\n"
-"2. 展开更多高级设置。"
+"1.Сбросьте действие, чтобы восстановить настройки по умолчанию.\n"
+"2. Разверните дополнительные расширенные настройки."
 
 #. TRANSLATORS: The title of introduction page
 #: /run/media/luke/Daten/Code/UbuntuTouch/recorder/Recorder/ui/IntroPage.qml:64
 msgid "Easy-to-use recorded file list"
-msgstr "易用的录音列表"
+msgstr "Простой в использовании список записанных файлов"
 
 #: /run/media/luke/Daten/Code/UbuntuTouch/recorder/Recorder/ui/IntroPage.qml:65
 msgid ""
@@ -240,246 +237,246 @@ msgid ""
 "3. Delete recorded file.\n"
 "4. Click item to play recording directly."
 msgstr ""
-"1. 重命名录音文件。\n"
-"2. 查看录音信息。\n"
-"3. 删除录音文件。\n"
-"4. 点击条目直接播放。"
+"1. Переименуйте записанный файл.\n"
+"2. Проверьте информацию о записи.\n"
+"3. Удалите записанный файл.\n"
+"4. Щелкните элемент, чтобы воспроизвести запись напрямую."
 
 #. TRANSLATORS: Start App
 #: /run/media/luke/Daten/Code/UbuntuTouch/recorder/Recorder/ui/IntroPage.qml:139
 msgid "Start"
-msgstr "开始"
+msgstr "Начать"
 
 #. TRANSLATORS: Title of the export files page
 #: /run/media/luke/Daten/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:70
 msgid "Export Records"
-msgstr "导出录音"
+msgstr "Экспортировать записи"
 
 #. TRANSLATORS: Go back previous page
 #: /run/media/luke/Daten/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:81
 #: /run/media/luke/Daten/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:148
 msgid "Back"
-msgstr "返回"
+msgstr "Назад"
 
 #. TRANSLATORS: Close export file page
 #: /run/media/luke/Daten/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:89
 #: /run/media/luke/Daten/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:473
 msgid "Close"
-msgstr "关闭"
+msgstr "Закрыть"
 
 #: /run/media/luke/Daten/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:105
 msgid "Search"
-msgstr "搜索"
+msgstr "Искать"
 
 #: /run/media/luke/Daten/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:110
 msgid "Sorting"
-msgstr "排序"
+msgstr "Сортировать"
 
 #. TRANSLATORS: OK to comfirm export files.
 #: /run/media/luke/Daten/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:125
 msgid "OK"
-msgstr "确定"
+msgstr "Потвердить"
 
 #: /run/media/luke/Daten/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:159
 msgid "Search..."
-msgstr "搜索..."
+msgstr "Поиск…"
 
 #: /run/media/luke/Daten/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:248
 msgid "No records"
-msgstr "没有录音"
+msgstr "Нет записей"
 
 #. TRANSLATORS: An action name for delete a record file.
 #: /run/media/luke/Daten/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:273
 #: /run/media/luke/Daten/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:564
 #: /run/media/luke/Daten/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:568
 msgid "Delete"
-msgstr "删除"
+msgstr "Удалить"
 
 #: /run/media/luke/Daten/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:282
 #, qt-format
 msgid "%1 has been deleted."
-msgstr "%1 已被删除。"
+msgstr "Удалено %1."
 
 #. TRANSLATORS: An action name for rename the file name.
 #: /run/media/luke/Daten/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:293
 msgid "Rename"
-msgstr "重命名"
+msgstr "Переименовать"
 
 #. TRANSLATORS: An action name for the record file info.
 #: /run/media/luke/Daten/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:307
 msgid "Info"
-msgstr "信息"
+msgstr "Информация"
 
 #: /run/media/luke/Daten/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:439
 msgid "Record Information"
-msgstr "录音信息"
+msgstr "Записать информацию"
 
 #: /run/media/luke/Daten/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:443
 #, qt-format
 msgid "<b>Name</b>: %1"
-msgstr "<b>名称</b>： %1"
+msgstr "<b>Имя</b>: %1"
 
 #: /run/media/luke/Daten/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:447
 #, qt-format
 msgid "<b>Type</b>: %1"
-msgstr "<b>类型</b>： %1"
+msgstr "<b>Тип</b>: %1"
 
 #: /run/media/luke/Daten/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:451
 #, qt-format
 msgid "<b>Size</b>: %1 (%2 B)"
-msgstr "<b>大小</b>： %1 (%2 字节)"
+msgstr "<b>Размер</b>: %1 (%2 B)"
 
 #. TRANSLATORS: The location where the record file is stored.
 #: /run/media/luke/Daten/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:457
 #, qt-format
 msgid "<b>Location</b>: %1"
-msgstr "<b>位置</b>： %1"
+msgstr "<b>Нахождение</b>: %1"
 
 #. TRANSLATORS: The last accessed time.
 #: /run/media/luke/Daten/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:463
 #, qt-format
 msgid "<b>Accessed</b>: %1"
-msgstr "<b>访问</b>： %1"
+msgstr "<b>Последний доступ</b>: %1"
 
 #. TRANSLATORS: The last modified time.
 #: /run/media/luke/Daten/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:469
 #, qt-format
 msgid "<b>Modified</b>: %1"
-msgstr "<b>修改</b>： %1"
+msgstr "<b>Изменено</b>: %1"
 
 #: /run/media/luke/Daten/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:496
 msgid "Rename Record File"
-msgstr "重命名录音文件"
+msgstr "Переименовать файл записи"
 
 #: /run/media/luke/Daten/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:497
 msgid "Please enter a new file name."
-msgstr "请输入一个新的文件名。"
+msgstr "Введите новое имя файла."
 
 #: /run/media/luke/Daten/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:505
 msgid "Save"
-msgstr "保存"
+msgstr "Сохранить"
 
 #: /run/media/luke/Daten/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:516
 #: /run/media/luke/Daten/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:574
 #: /run/media/luke/Daten/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:516
 msgid "Cancel"
-msgstr "取消"
+msgstr "Отменить"
 
 #: /run/media/luke/Daten/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:526
 msgid "Sort by"
-msgstr "排序"
+msgstr "Сортировать по"
 
 #: /run/media/luke/Daten/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:536
 msgid "Unsorted (default)"
-msgstr "不排序（默认）"
+msgstr "Несортировано (по умолчанию)"
 
 #: /run/media/luke/Daten/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:537
 msgid "File name (ascending)"
-msgstr "文件名（升序）"
+msgstr "Имя файла (по возрастанию)"
 
 #: /run/media/luke/Daten/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:538
 msgid "File name (descending)"
-msgstr "文件名（降序）"
+msgstr "Имя файла (по убыванию)"
 
 #: /run/media/luke/Daten/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:539
 msgid "Time modified (newest first)"
-msgstr "修改时间（最新在前）"
+msgstr "Время изменения (сначала новые)"
 
 #: /run/media/luke/Daten/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:540
 msgid "Time modified (oldest first)"
-msgstr "修改时间（最旧在前）"
+msgstr "Время изменения (сначала старые)"
 
 #: /run/media/luke/Daten/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:541
 msgid "Size (ascending)"
-msgstr "大小（升序）"
+msgstr "Размер (по возрастанию)"
 
 #: /run/media/luke/Daten/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:542
 msgid "Size (descending)"
-msgstr "大小（降序）"
+msgstr "Размер (по убыванию)"
 
 #: /run/media/luke/Daten/Code/UbuntuTouch/recorder/Recorder/ui/RecordsPage.qml:565
 #, qt-format
 msgid "Do you want delete %1 ?"
-msgstr "你确定要删除 %1 ？"
+msgstr "Хотите удалить %1?"
 
 #. TRANSLATORS: The title of advanced settings page
 #: /run/media/luke/Daten/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:68
 #: /run/media/luke/Daten/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:100
 msgid "Advanced Settings"
-msgstr "高级设置"
+msgstr "Дополнительные настройки"
 
 #: /run/media/luke/Daten/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:75
 #: /run/media/luke/Daten/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:121
 #: /run/media/luke/Daten/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:505
 #: /run/media/luke/Daten/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:510
 msgid "Reset"
-msgstr "重置"
+msgstr "Сбросить"
 
 #: /run/media/luke/Daten/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:81
 #: /run/media/luke/Daten/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:127
 msgid "All settings have been reset."
-msgstr "所有设置已重置。"
+msgstr "Все настройки были сброшены"
 
 #: /run/media/luke/Daten/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:114
 msgid "General Settings"
-msgstr "常规设置"
+msgstr "Общие Настройки"
 
 #: /run/media/luke/Daten/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:158
 msgid "Keep screen on"
-msgstr "保持屏幕唤醒"
+msgstr "Не отключать экран"
 
 #: /run/media/luke/Daten/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:175
 msgid "Show sound wave"
-msgstr "显示声波图"
+msgstr "Показать осциллограф (Форму волны)"
 
 #: /run/media/luke/Daten/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:192
 msgid "Microphone volume"
-msgstr "麦克风音量"
+msgstr "Громкость микрофона"
 
 #: /run/media/luke/Daten/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:246
 #: /run/media/luke/Daten/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:255
 msgid "Record Quality"
-msgstr "录音品质"
+msgstr "Качество записи"
 
 #: /run/media/luke/Daten/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:278
 #: /run/media/luke/Daten/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:287
 msgid "Input Device"
-msgstr ""
+msgstr "Устройство ввода"
 
 #: /run/media/luke/Daten/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:314
 #: /run/media/luke/Daten/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:324
 msgid "Audio Codec"
-msgstr "音频编码"
+msgstr "Аудиокодек"
 
 #. TRANSLATORS: The count of sound channel
 #: /run/media/luke/Daten/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:378
 #: /run/media/luke/Daten/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:389
 msgid "Channels"
-msgstr "声道"
+msgstr "Каналы"
 
 #: /run/media/luke/Daten/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:411
 #: /run/media/luke/Daten/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:421
 msgid "Encoding Mode"
-msgstr "编码模式"
+msgstr "Режим кодирования"
 
 #: /run/media/luke/Daten/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:443
 #: /run/media/luke/Daten/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:453
 msgid "Encoding Quality"
-msgstr "编码品质"
+msgstr "Качество кодирования"
 
 #: /run/media/luke/Daten/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:475
 #: /run/media/luke/Daten/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:485
 msgid "Bitrate"
-msgstr "比特率"
+msgstr "Битрейт"
 
 #: /run/media/luke/Daten/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:506
 msgid "Do you want reset settings?"
-msgstr "你确定要重置设置？"
+msgstr "Хотите сбросить настройки?"
 
 #: /run/media/luke/Daten/Code/UbuntuTouch/recorder/Recorder/ui/SharePage.qml:35
 msgid "Share with"
-msgstr ""
+msgstr "Поделиться"
 
 #, fuzzy
 #~ msgid "File Container"
-#~ msgstr "文件容器"
+#~ msgstr "Файловый контейнер"
