@@ -1,0 +1,349 @@
+# Spanish translation for recorder
+# Copyright (c) 2017 Rosetta Contributors and Canonical Ltd 2017
+# This file is distributed under the same license as the recorder package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: recorder\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-01-06 21:33+0000\n"
+"PO-Revision-Date: 2018-03-13 20:20+0100\n"
+"Last-Translator: JasonWalt Bab@ "Knyaz" <mardimusa8@gmail.com>\n"
+"Language-Team: JasonWalt Bab@'s Translate Team БаZa\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. TRANSLATORS: This is a quality option in Record Quality.
+msgid "Very Low Quality"
+msgstr "Очень низкое качество"
+
+#. TRANSLATORS: This is a quality option in Record Quality.
+msgid "Low Quality"
+msgstr "Низкое качество"
+
+#. TRANSLATORS: This is a quality option in Record Quality.
+#. TRANSLATORS: This is an option in Encoding Mode. It means set audio quality using defaults options.
+#, qt-format
+msgid "%1 (default)"
+msgstr "%1 (по умолчанию)"
+
+msgid "Normal Quality"
+msgstr "Нормальное качество"
+
+#. TRANSLATORS: This is a quality option in Record Quality.
+msgid "High Quality"
+msgstr "Высокое качество"
+
+#. TRANSLATORS: This is a quality option in Record Quality.
+msgid "Very High Quality"
+msgstr "Очень высокое качество"
+
+msgid "Constant Quality"
+msgstr "Постоянное качество"
+
+#. TRANSLATORS: This is an option in Encoding Mode. It means set audio quality using bitrate.
+msgid "Constant Bitrate"
+msgstr "Постоянный битрейт"
+
+#. TRANSLATORS: This a reminder when some thing error.
+msgid " (Reset your settings will fix this.)"
+msgstr " (Сброс настроек исправит эту проблему.)"
+
+#. TRANSLATORS: Title of About page.
+#. TRANSLATORS: A section name of top Sections.
+msgid "About"
+msgstr "Об этом"
+
+#. TRANSLATORS: A section name of top Sections.
+msgid "Support"
+msgstr "Поддержка"
+
+#. TRANSLATORS: Recorder is the name of this App.
+msgid "Recorder"
+msgstr "Диктофон"
+
+#. TRANSLATORS: Recorder version number e.g Version 1.0.0
+#, qt-format
+msgid "Version %1"
+msgstr "Версия %1"
+
+#. TRANSLATORS: The summary of this App.
+msgid "Audio Recorder for Ubuntu."
+msgstr "Диктофон для Ubuntu."
+
+#. TRANSLATORS: release license
+msgid ""
+"Released under the terms of the <a href=\"https://github.com/dawndiy/"
+"recorder/blob/master/LICENSE\">GNU GPL v3</a>"
+msgstr ""
+"Выпущено на условиях <a href=\"https://github.com/dawndiy/"
+"recorder/blob/master/LICENSE\">GNU GPL v3</a>"
+
+msgid "Donate"
+msgstr "Пожертвовать"
+
+msgid "Resources"
+msgstr "Ресурсы"
+
+msgid "Bugs"
+msgstr "Неполадки"
+
+msgid "Contact"
+msgstr "Связь"
+
+msgid "Translations"
+msgstr "Переводы"
+
+msgid "Icon"
+msgstr "Иконка"
+
+#, fuzzy
+msgid "Translators"
+msgstr "Переводчики"
+
+msgid "Developers"
+msgstr "Разработчики"
+
+#, fuzzy
+msgid "Maintainer"
+msgstr "Сопроводитель"
+
+msgid "Please donate if you like this App. :)"
+msgstr "Задонатьте пожалуйста если вам понравилось приложение :)"
+
+#. TRANSLATORS: This is a tab action name. This action button will enter a page show recorded files.
+#. TRANSLATORS: Title of record list page
+msgid "Records"
+msgstr "Записи"
+
+#. TRANSLATORS: The title of settings page
+msgid "Settings"
+msgstr "Настройки"
+
+msgid "Share"
+msgstr "Поделиться"
+
+msgid "Please load or create a recording first."
+msgstr "Пожалуйста загрузите или сделайте запись сначала"
+
+#, qt-format
+msgid "Record is saved in %1"
+msgstr "Запись сохранена в %1"
+
+#. TRANSLATORS: The text of the button to skip the introduction page.
+msgid "Skip"
+msgstr "Пропустить"
+
+#. TRANSLATORS: The title of introduction page
+#, fuzzy
+msgid "Simple recording"
+msgstr "Простая запись"
+
+msgid ""
+"1. Record button to start recording.\n"
+"2. Play button to play recording.\n"
+"3. Stop button to stop recording or play."
+msgstr ""
+"1. Кнопка записи для начала записи.\n"
+"2. Кнопка воспроизведения для воспроизведения записи.\n"
+"3. Кнопка остановки для остановки записи или воспроизведения"
+#. TRANSLATORS: The title of introduction page
+msgid "Rich set of options"
+msgstr "Богатый набор опций"
+
+msgid ""
+"1. Reset action to restore the default settings.\n"
+"2. Expand more advanced settings."
+msgstr ""
+"1.Сбросьте действие, чтобы восстановить настройки по умолчанию.\n"
+"2. Разверните дополнительные расширенные настройки."
+
+#. TRANSLATORS: The title of introduction page
+msgid "Easy-to-use recorded file list"
+msgstr "Простой в использовании список записанных файлов"
+
+msgid ""
+"1. Rename recorded file.\n"
+"2. Check out recording informations.\n"
+"3. Delete recorded file.\n"
+"4. Click item to play recording directly."
+msgstr ""
+"1. Переименуйте записанный файл.\n"
+"2. Проверьте информацию о записи.\n"
+"3. Удалите записанный файл.\n"
+"4. Щелкните элемент, чтобы воспроизвести запись напрямую."
+
+#. TRANSLATORS: Start App
+msgid "Start"
+msgstr "Начать"
+
+#. TRANSLATORS: Title of the export files page
+msgid "Export Records"
+msgstr "Экспортировать записи"
+
+#. TRANSLATORS: Go back previous page
+msgid "Back"
+msgstr "Назад"
+
+#. TRANSLATORS: Close export file page
+msgid "Close"
+msgstr "Закрыть"
+
+msgid "Search"
+msgstr "Искать"
+
+msgid "Sorting"
+msgstr "Сортировать"
+
+#. TRANSLATORS: OK to comfirm export files.
+msgid "OK"
+msgstr "Потвердить"
+
+msgid "Search..."
+msgstr "Поиск…"
+
+msgid "No records"
+msgstr "Нет записей"
+
+#. TRANSLATORS: An action name for delete a record file.
+msgid "Delete"
+msgstr "Удалить"
+
+#, qt-format
+msgid "%1 has been deleted."
+msgstr "Удалено %1."
+
+#. TRANSLATORS: An action name for rename the file name.
+msgid "Rename"
+msgstr "Переименовать"
+
+#. TRANSLATORS: An action name for the record file info.
+msgid "Info"
+msgstr "Информация"
+
+msgid "Record Information"
+msgstr "Записать информацию"
+
+#, qt-format
+msgid "<b>Name</b>: %1"
+msgstr "<b>Имя</b>: %1"
+
+#, qt-format
+msgid "<b>Type</b>: %1"
+msgstr "<b>Тип</b>: %1"
+
+#, qt-format
+msgid "<b>Size</b>: %1 (%2 B)"
+msgstr "<b>Размер</b>: %1 (%2 B)"
+
+#. TRANSLATORS: The location where the record file is stored.
+#, qt-format
+msgid "<b>Location</b>: %1"
+msgstr "<b>Нахождение</b>: %1"
+
+#. TRANSLATORS: The last accessed time.
+#, qt-format
+msgid "<b>Accessed</b>: %1"
+msgstr "<b>Последний доступ</b>: %1"
+
+#. TRANSLATORS: The last modified time.
+#, qt-format
+msgid "<b>Modified</b>: %1"
+msgstr "<b>Изменено</b>: %1"
+
+msgid "Rename Record File"
+msgstr "Переименовать файл записи"
+
+msgid "Please enter a new file name."
+msgstr "Введите новое имя файла."
+
+msgid "Save"
+msgstr "Сохранить"
+
+msgid "Cancel"
+msgstr "Отменить"
+
+msgid "Sort by"
+msgstr "Сортировать по"
+
+msgid "Unsorted (default)"
+msgstr "Несортировано (по умолчанию)"
+
+msgid "File name (ascending)"
+msgstr "Имя файла (по возрастанию)"
+
+msgid "File name (descending)"
+msgstr "Имя файла (по убыванию)"
+
+msgid "Time modified (newest first)"
+msgstr "Время изменения (сначала новые)"
+
+msgid "Time modified (oldest first)"
+msgstr "Время изменения (сначала старые)"
+
+msgid "Size (ascending)"
+msgstr "Размер (по возрастанию)"
+
+msgid "Size (descending)"
+msgstr "Размер (по убыванию)"
+
+#, qt-format
+msgid "Do you want delete %1 ?"
+msgstr "Хотите удалить %1?"
+
+#. TRANSLATORS: The title of advanced settings page
+msgid "Advanced Settings"
+msgstr "Дополнительные настройки"
+
+msgid "Reset"
+msgstr "Сбросить"
+
+msgid "All settings have been reset."
+msgstr "Все настройки были сброшены"
+
+msgid "General Settings"
+msgstr "Общие Настройки"
+
+msgid "Keep screen on"
+msgstr "Не отключать экран"
+
+msgid "Show sound wave"
+msgstr "Показать осциллограф (Форму волны)"
+
+msgid "Microphone volume"
+msgstr "Громкость микрофона"
+
+msgid "Record Quality"
+msgstr "Качество записи"
+
+msgid "Input Device"
+msgstr "Устройство ввода"
+
+msgid "Audio Codec"
+msgstr "Аудиокодек"
+
+#. TRANSLATORS: The count of sound channel
+msgid "Channels"
+msgstr "Каналы"
+
+msgid "Encoding Mode"
+msgstr "Режим кодирования"
+
+msgid "Encoding Quality"
+msgstr "Качество кодирования"
+
+msgid "Bitrate"
+msgstr "Битрейт"
+
+msgid "Do you want reset settings?"
+msgstr "Хотите сбросить настройки?"
+
+msgid "Share with"
+msgstr "Поделиться"
+
+#, fuzzy
+#~ msgid "File Container"
+#~ msgstr "Файловый контейнер"
