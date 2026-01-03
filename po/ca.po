@@ -443,7 +443,7 @@ msgstr "Qualitat de gravació"
 #: /run/media/luke/Daten/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:278
 #: /run/media/luke/Daten/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:287
 msgid "Input Device"
-msgstr ""
+msgstr "Dispositiu d'entrada"
 
 #: /run/media/luke/Daten/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:314
 #: /run/media/luke/Daten/Code/UbuntuTouch/recorder/Recorder/ui/SettingsPage.qml:324
