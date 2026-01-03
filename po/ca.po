@@ -2,7 +2,7 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# Khmelyauskas Alexander Eduardovich "Knyaz'" - Actualitza a la traducció completa
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
@@ -181,11 +181,11 @@ msgstr "Configuració"
 
 #: /run/media/luke/Daten/Code/UbuntuTouch/recorder/Recorder/ui/HomePage.qml:68
 msgid "Share"
-msgstr ""
+msgstr "Comparteix"
 
 #: /run/media/luke/Daten/Code/UbuntuTouch/recorder/Recorder/ui/HomePage.qml:75
 msgid "Please load or create a recording first."
-msgstr ""
+msgstr "Si us plau, carregueu o creeu una gravació primer."
 
 #: /run/media/luke/Daten/Code/UbuntuTouch/recorder/Recorder/ui/HomePage.qml:343
 #: /run/media/luke/Daten/Code/UbuntuTouch/recorder/Recorder/ui/HomePage.qml:398
@@ -477,7 +477,7 @@ msgstr "Voleu reiniciar la configuració?"
 
 #: /run/media/luke/Daten/Code/UbuntuTouch/recorder/Recorder/ui/SharePage.qml:35
 msgid "Share with"
-msgstr ""
+msgstr "Comparteix amb"
 
 #, fuzzy
 #~ msgid "File Container"
